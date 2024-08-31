@@ -1,4 +1,13 @@
-﻿# Pokémon Essentials
+# Veemon
+
+I have no idea how to use Github. Guess I'll have to learn quickly!
+The plan here is to make a Pokemon fangame in RPG Maker XP, as so many have done before, but this one has nothing but Eeveelutions.
+I'm gonna have to draw So. Many. Fakemon.
+
+## Original Pokemon Essentials readme continues below.
+ 
+ 
+ # Pokémon Essentials
 
 Based on Essentials v21.1.
 
