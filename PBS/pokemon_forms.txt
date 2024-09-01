@@ -12,6 +12,8 @@ Evolution = GLACEON,LocationFlag,IceRock
 Evolution = SYLVEON,HappinessMoveType,FAIRY
 Evolution = ESPEON,HappinessDay
 Evolution = UMBREON,HappinessNight
+Evolution = TOXEON,UnhappinessDay
+Evolution = PHASEON,UnhappinessNight
 Evolution = FLAREON,Level,16
 [FLAREON,1]
 #-------------------------------
@@ -27,6 +29,8 @@ Evolution = GLACEON,LocationFlag,IceRock
 Evolution = SYLVEON,HappinessMoveType,FAIRY
 Evolution = ESPEON,HappinessDay
 Evolution = UMBREON,HappinessNight
+Evolution = TOXEON,UnhappinessDay
+Evolution = PHASEON,UnhappinessNight
 Evolution = EEVEON,Level,16
 # CHANGE TO FIGHTING, ADD INHERITANCE
 #-------------------------------
@@ -42,6 +46,8 @@ Evolution = GLACEON,LocationFlag,IceRock
 Evolution = SYLVEON,HappinessMoveType,FAIRY
 Evolution = ESPEON,HappinessDay
 Evolution = UMBREON,HappinessNight
+Evolution = TOXEON,UnhappinessDay
+Evolution = PHASEON,UnhappinessNight
 Evolution = VAPOREON,Level,16
 [VAPOREON,3]
 #-------------------------------
@@ -57,6 +63,8 @@ Evolution = GLACEON,LocationFlag,IceRock
 Evolution = SYLVEON,HappinessMoveType,FAIRY
 Evolution = ESPEON,HappinessDay
 Evolution = UMBREON,HappinessNight
+Evolution = TOXEON,UnhappinessDay
+Evolution = PHASEON,UnhappinessNight
 Evolution = EEVEON,Level,16
 # CHANGE TO FLYING, ADD INHERITANCE
 #-------------------------------
@@ -72,6 +80,8 @@ Evolution = GLACEON,LocationFlag,IceRock
 Evolution = SYLVEON,HappinessMoveType,FAIRY
 Evolution = ESPEON,HappinessDay
 Evolution = UMBREON,HappinessNight
+Evolution = TOXEON,UnhappinessDay
+Evolution = PHASEON,UnhappinessNight
 Evolution = LEAFEON,Level,16
 [LEAFEON,5]
 #-------------------------------
@@ -87,8 +97,10 @@ Evolution = GLACEON,LocationFlag,IceRock
 Evolution = SYLVEON,HappinessMoveType,FAIRY
 Evolution = ESPEON,HappinessDay
 Evolution = UMBREON,HappinessNight
-Evolution = EEVEON,Level,16
-# CHANGE TO POISON, ADD INHERITANCE
+Evolution = TOXEON,UnhappinessDay
+Evolution = PHASEON,UnhappinessNight
+Evolution = TOXEON,Level,16
+[TOXEON,6]
 #-------------------------------
 [EEVEE,7]
 Evolution = DRAKEON,TradeItem,DRAGONSCALE
@@ -102,6 +114,8 @@ Evolution = GLACEON,LocationFlag,IceRock
 Evolution = SYLVEON,HappinessMoveType,FAIRY
 Evolution = ESPEON,HappinessDay
 Evolution = UMBREON,HappinessNight
+Evolution = TOXEON,UnhappinessDay
+Evolution = PHASEON,UnhappinessNight
 Evolution = JOLTEON,Level,16
 [JOLTEON,7]
 #-------------------------------
@@ -117,6 +131,8 @@ Evolution = GLACEON,LocationFlag,IceRock
 Evolution = SYLVEON,HappinessMoveType,FAIRY
 Evolution = ESPEON,HappinessDay
 Evolution = UMBREON,HappinessNight
+Evolution = TOXEON,UnhappinessDay
+Evolution = PHASEON,UnhappinessNight
 Evolution = EEVEON,Level,16
 # CHANGE TO GROUND, ADD INHERITANCE
 #-------------------------------
@@ -132,6 +148,8 @@ Evolution = GLACEON,LocationFlag,IceRock
 Evolution = SYLVEON,HappinessMoveType,FAIRY
 Evolution = ESPEON,HappinessDay
 Evolution = UMBREON,HappinessNight
+Evolution = TOXEON,UnhappinessDay
+Evolution = PHASEON,UnhappinessNight
 Evolution = ESPEON,Level,16
 [ESPEON,9]
 #-------------------------------
@@ -147,6 +165,8 @@ Evolution = GLACEON,LocationFlag,IceRock
 Evolution = SYLVEON,HappinessMoveType,FAIRY
 Evolution = ESPEON,HappinessDay
 Evolution = UMBREON,HappinessNight
+Evolution = TOXEON,UnhappinessDay
+Evolution = PHASEON,UnhappinessNight
 Evolution = STONEON,Level,16
 [STONEON,10]
 #-------------------------------
@@ -162,6 +182,8 @@ Evolution = GLACEON,LocationFlag,IceRock
 Evolution = SYLVEON,HappinessMoveType,FAIRY
 Evolution = ESPEON,HappinessDay
 Evolution = UMBREON,HappinessNight
+Evolution = TOXEON,UnhappinessDay
+Evolution = PHASEON,UnhappinessNight
 Evolution = GLACEON,Level,16
 [GLACEON,11]
 #-------------------------------
@@ -177,6 +199,8 @@ Evolution = GLACEON,LocationFlag,IceRock
 Evolution = SYLVEON,HappinessMoveType,FAIRY
 Evolution = ESPEON,HappinessDay
 Evolution = UMBREON,HappinessNight
+Evolution = TOXEON,UnhappinessDay
+Evolution = PHASEON,UnhappinessNight
 Evolution = EEVEON,Level,16
 # CHANGE TO BUG, ADD INHERITANCE
 #-------------------------------
@@ -192,6 +216,8 @@ Evolution = GLACEON,LocationFlag,IceRock
 Evolution = SYLVEON,HappinessMoveType,FAIRY
 Evolution = ESPEON,HappinessDay
 Evolution = UMBREON,HappinessNight
+Evolution = TOXEON,UnhappinessDay
+Evolution = PHASEON,UnhappinessNight
 Evolution = DRAKEON,Level,16
 [DRAKEON,13]
 #-------------------------------
@@ -207,6 +233,8 @@ Evolution = GLACEON,LocationFlag,IceRock
 Evolution = SYLVEON,HappinessMoveType,FAIRY
 Evolution = ESPEON,HappinessDay
 Evolution = UMBREON,HappinessNight
+Evolution = TOXEON,UnhappinessDay
+Evolution = PHASEON,UnhappinessNight
 Evolution = PHASEON,Level,16
 [PHASEON,14]
 #-------------------------------
@@ -222,6 +250,8 @@ Evolution = GLACEON,LocationFlag,IceRock
 Evolution = SYLVEON,HappinessMoveType,FAIRY
 Evolution = ESPEON,HappinessDay
 Evolution = UMBREON,HappinessNight
+Evolution = TOXEON,UnhappinessDay
+Evolution = PHASEON,UnhappinessNight
 Evolution = UMBREON,Level,16
 [UMBREON,15]
 #-------------------------------
@@ -237,6 +267,8 @@ Evolution = GLACEON,LocationFlag,IceRock
 Evolution = SYLVEON,HappinessMoveType,FAIRY
 Evolution = ESPEON,HappinessDay
 Evolution = UMBREON,HappinessNight
+Evolution = TOXEON,UnhappinessDay
+Evolution = PHASEON,UnhappinessNight
 Evolution = EEVEON,Level,16
 # CHANGE TO STEEL, ADD INHERITANCE
 #-------------------------------
@@ -252,5 +284,7 @@ Evolution = GLACEON,LocationFlag,IceRock
 Evolution = SYLVEON,HappinessMoveType,FAIRY
 Evolution = ESPEON,HappinessDay
 Evolution = UMBREON,HappinessNight
+Evolution = TOXEON,UnhappinessDay
+Evolution = PHASEON,UnhappinessNight
 Evolution = SYLVEON,Level,16
 [SYLVEON,17]
