@@ -144,63 +144,63 @@ end
 #===============================================================================
 
 MultipleForms.register(:FLAREON, {
-  "getFormOnCreation" => proc { |pkmn|
+  "getForm" => proc { |pkmn|
     next 1
   }
 })
 # INSERT FIGHTING
 MultipleForms.register(:VAPOREON, {
-  "getFormOnCreation" => proc { |pkmn|
+  "getForm" => proc { |pkmn|
     next 3
   }
 })
 # INSERT FLYING
 MultipleForms.register(:LEAFEON, {
-  "getFormOnCreation" => proc { |pkmn|
+  "getForm" => proc { |pkmn|
     next 5
   }
 })
 # INSERT POISON
 MultipleForms.register(:JOLTEON, {
-  "getFormOnCreation" => proc { |pkmn|
+  "getForm" => proc { |pkmn|
     next 7
   }
 })
 # INSERT GROUND
 MultipleForms.register(:ESPEON, {
-  "getFormOnCreation" => proc { |pkmn|
+  "getForm" => proc { |pkmn|
     next 9
   }
 })
 MultipleForms.register(:STONEON, {
-  "getFormOnCreation" => proc { |pkmn|
+  "getForm" => proc { |pkmn|
     next 10
   }
 })
 MultipleForms.register(:GLACEON, {
-  "getFormOnCreation" => proc { |pkmn|
+  "getForm" => proc { |pkmn|
     next 11
   }
 })
 # INSERT BUG
 MultipleForms.register(:DRAKEON, {
-  "getFormOnCreation" => proc { |pkmn|
+  "getForm" => proc { |pkmn|
     next 13
   }
 })
 MultipleForms.register(:PHASEON, {
-  "getFormOnCreation" => proc { |pkmn|
+  "getForm" => proc { |pkmn|
     next 14
   }
 })
 MultipleForms.register(:UMBREON, {
-  "getFormOnCreation" => proc { |pkmn|
+  "getForm" => proc { |pkmn|
     next 15
   }
 })
 # INSERT STEEL
 MultipleForms.register(:SYLVEON, {
-  "getFormOnCreation" => proc { |pkmn|
+  "getForm" => proc { |pkmn|
     next 17
   }
 })
