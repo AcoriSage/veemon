@@ -56,7 +56,7 @@ module Settings
   #-----------------------------------------------------------------------------
 
   # Whether weather caused by an ability lasts 5 rounds (true) or forever (false).
-  FIXED_DURATION_WEATHER_FROM_ABILITY = (MECHANICS_GENERATION >= 6)
+  FIXED_DURATION_WEATHER_FROM_ABILITY = false
   # Whether X items (X Attack, etc.) raise their stat by 2 stages (true) or 1
   # (false).
   X_STAT_ITEMS_RAISE_BY_TWO_STAGES    = (MECHANICS_GENERATION >= 7)
@@ -74,12 +74,12 @@ module Settings
   # Whether Pokémon with high happiness will gain more Exp from battles, have a
   # chance of avoiding/curing negative effects by themselves, resisting
   # fainting, etc.
-  AFFECTION_EFFECTS        = false
+  AFFECTION_EFFECTS        = true
   # Whether a Pokémon's happiness is limited to 179, and can only be increased
   # further with friendship-raising berries. Related to AFFECTION_EFFECTS by
   # default because affection effects only start applying above a happiness of
   # 179. Also lowers the happiness evolution threshold to 160.
-  APPLY_HAPPINESS_SOFT_CAP = AFFECTION_EFFECTS
+  APPLY_HAPPINESS_SOFT_CAP = false
 
   #-----------------------------------------------------------------------------
   # Capturing Pokémon
@@ -89,7 +89,7 @@ module Settings
   # based on a total of 600+ species (i.e. that many species need to be caught
   # to provide the greatest critical capture chance of 2.5x), and there may be
   # fewer species in your game.
-  ENABLE_CRITICAL_CAPTURES             = (MECHANICS_GENERATION >= 5)
+  ENABLE_CRITICAL_CAPTURES             = false
   # Whether the player is asked what to do with a newly caught Pokémon if their
   # party is full. If true, the player can toggle whether they are asked this in
   # the Options screen.
@@ -106,7 +106,7 @@ module Settings
   # between each participant (true), or whether each participant should gain
   # that much Exp (false). This also applies to Exp gained via the Exp Share
   # (held item version) being distributed to all Exp Share holders.
-  SPLIT_EXP_BETWEEN_GAINERS     = (MECHANICS_GENERATION <= 5)
+  SPLIT_EXP_BETWEEN_GAINERS     = true
   # Whether the Exp gained from beating a Pokémon is multiplied by 1.5 if that
   # Pokémon is owned by another trainer.
   MORE_EXP_FROM_TRAINER_POKEMON = (MECHANICS_GENERATION <= 6)
