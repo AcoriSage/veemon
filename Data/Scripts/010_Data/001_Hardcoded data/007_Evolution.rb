@@ -283,6 +283,22 @@ GameData::Evolution.register({
 })
 
 GameData::Evolution.register({
+  :id            => :Unhappiness,
+  :any_level_up  => true,   # Needs any level up
+  :level_up_proc => proc { |pkmn, parameter|
+    next pkmn.happiness <= 30
+  }
+})
+
+GameData::Evolution.register({
+  :id            => :Misery,
+  :any_level_up  => true,   # Needs any level up
+  :level_up_proc => proc { |pkmn, parameter|
+    next pkmn.happiness <= 0
+  }
+})
+
+GameData::Evolution.register({
   :id            => :HappinessMale,
   :any_level_up  => true,   # Needs any level up
   :level_up_proc => proc { |pkmn, parameter|
@@ -307,10 +323,58 @@ GameData::Evolution.register({
 })
 
 GameData::Evolution.register({
+  :id            => :UnhappinessDay,
+  :any_level_up  => true,   # Needs any level up
+  :level_up_proc => proc { |pkmn, parameter|
+    next pkmn.happiness <= 30 && PBDayNight.isDay?
+  }
+})
+
+GameData::Evolution.register({
+  :id            => :JoyDay,
+  :any_level_up  => true,   # Needs any level up
+  :level_up_proc => proc { |pkmn, parameter|
+    next pkmn.happiness >= 255 && PBDayNight.isDay?
+  }
+})
+
+GameData::Evolution.register({
+  :id            => :MiseryDay,
+  :any_level_up  => true,   # Needs any level up
+  :level_up_proc => proc { |pkmn, parameter|
+    next pkmn.happiness <= 0 && PBDayNight.isDay?
+  }
+})
+
+GameData::Evolution.register({
   :id            => :HappinessNight,
   :any_level_up  => true,   # Needs any level up
   :level_up_proc => proc { |pkmn, parameter|
     next pkmn.happiness >= (Settings::APPLY_HAPPINESS_SOFT_CAP ? 160 : 220) && PBDayNight.isNight?
+  }
+})
+
+GameData::Evolution.register({
+  :id            => :UnhappinessNight,
+  :any_level_up  => true,   # Needs any level up
+  :level_up_proc => proc { |pkmn, parameter|
+    next pkmn.happiness <= 30 && PBDayNight.isNight?
+  }
+})
+
+GameData::Evolution.register({
+  :id            => :JoyNight,
+  :any_level_up  => true,   # Needs any level up
+  :level_up_proc => proc { |pkmn, parameter|
+    next pkmn.happiness >= 255 && PBDayNight.isNight?
+  }
+})
+
+GameData::Evolution.register({
+  :id            => :MiseryNight,
+  :any_level_up  => true,   # Needs any level up
+  :level_up_proc => proc { |pkmn, parameter|
+    next pkmn.happiness <= 0 && PBDayNight.isNight?
   }
 })
 
@@ -320,6 +384,39 @@ GameData::Evolution.register({
   :any_level_up  => true,   # Needs any level up
   :level_up_proc => proc { |pkmn, parameter|
     if pkmn.happiness >= (Settings::APPLY_HAPPINESS_SOFT_CAP ? 160 : 220)
+      next pkmn.moves.any? { |m| m && m.id == parameter }
+    end
+  }
+})
+
+GameData::Evolution.register({
+  :id            => :UnhappinessMove,
+  :parameter     => :Move,
+  :any_level_up  => true,   # Needs any level up
+  :level_up_proc => proc { |pkmn, parameter|
+    if pkmn.happiness <= 30
+      next pkmn.moves.any? { |m| m && m.id == parameter }
+    end
+  }
+})
+
+GameData::Evolution.register({
+  :id            => :JoyMove,
+  :parameter     => :Move,
+  :any_level_up  => true,   # Needs any level up
+  :level_up_proc => proc { |pkmn, parameter|
+    if pkmn.happiness >= 255
+      next pkmn.moves.any? { |m| m && m.id == parameter }
+    end
+  }
+})
+
+GameData::Evolution.register({
+  :id            => :MiseryMove,
+  :parameter     => :Move,
+  :any_level_up  => true,   # Needs any level up
+  :level_up_proc => proc { |pkmn, parameter|
+    if pkmn.happiness <= 0
       next pkmn.moves.any? { |m| m && m.id == parameter }
     end
   }
@@ -337,11 +434,86 @@ GameData::Evolution.register({
 })
 
 GameData::Evolution.register({
+  :id            => :UnhappinessMoveType,
+  :parameter     => :Type,
+  :any_level_up  => true,   # Needs any level up
+  :level_up_proc => proc { |pkmn, parameter|
+    if pkmn.happiness <= 30
+      next pkmn.moves.any? { |m| m && m.type == parameter }
+    end
+  }
+})
+
+GameData::Evolution.register({
+  :id            => :JoyMoveType,
+  :parameter     => :Type,
+  :any_level_up  => true,   # Needs any level up
+  :level_up_proc => proc { |pkmn, parameter|
+    if pkmn.happiness >= 255
+      next pkmn.moves.any? { |m| m && m.type == parameter }
+    end
+  }
+})
+  
+GameData::Evolution.register({
+  :id            => :MiseryMoveType,
+  :parameter     => :Type,
+  :any_level_up  => true,   # Needs any level up
+  :level_up_proc => proc { |pkmn, parameter|
+    if pkmn.happiness <= 0
+      next pkmn.moves.any? { |m| m && m.type == parameter }
+    end
+  }
+})
+
+GameData::Evolution.register({
   :id                   => :HappinessHoldItem,
   :parameter            => :Item,
   :any_level_up         => true,   # Needs any level up
   :level_up_proc        => proc { |pkmn, parameter|
     next pkmn.item == parameter && pkmn.happiness >= (Settings::APPLY_HAPPINESS_SOFT_CAP ? 160 : 220)
+  },
+  :after_evolution_proc => proc { |pkmn, new_species, parameter, evo_species|
+    next false if evo_species != new_species || !pkmn.hasItem?(parameter)
+    pkmn.item = nil   # Item is now consumed
+    next true
+  }
+})
+
+GameData::Evolution.register({
+  :id                   => :UnhappinessHoldItem,
+  :parameter            => :Item,
+  :any_level_up         => true,   # Needs any level up
+  :level_up_proc        => proc { |pkmn, parameter|
+    next pkmn.item == parameter && pkmn.happiness <= 30
+  },
+  :after_evolution_proc => proc { |pkmn, new_species, parameter, evo_species|
+    next false if evo_species != new_species || !pkmn.hasItem?(parameter)
+    pkmn.item = nil   # Item is now consumed
+    next true
+  }
+})
+
+GameData::Evolution.register({
+  :id                   => :JoyHoldItem,
+  :parameter            => :Item,
+  :any_level_up         => true,   # Needs any level up
+  :level_up_proc        => proc { |pkmn, parameter|
+    next pkmn.item == parameter && pkmn.happiness >= 255
+  },
+  :after_evolution_proc => proc { |pkmn, new_species, parameter, evo_species|
+    next false if evo_species != new_species || !pkmn.hasItem?(parameter)
+    pkmn.item = nil   # Item is now consumed
+    next true
+  }
+})
+
+GameData::Evolution.register({
+  :id                   => :MiseryHoldItem,
+  :parameter            => :Item,
+  :any_level_up         => true,   # Needs any level up
+  :level_up_proc        => proc { |pkmn, parameter|
+    next pkmn.item == parameter && pkmn.happiness <= 0
   },
   :after_evolution_proc => proc { |pkmn, new_species, parameter, evo_species|
     next false if evo_species != new_species || !pkmn.hasItem?(parameter)
