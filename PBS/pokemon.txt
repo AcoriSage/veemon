@@ -26,6 +26,7 @@ Category = Evolution
 Pokedex = An Eevee has an unstable genetic makeup that suddenly mutates due to its environment. Radiation from various stones causes this Pokémon to evolve.
 Flags = InheritFormWithEverStone,InheritFormFromMother
 Generation = 1
+Evolution = DRAKEON,TradeItem,DRAGONSCALE
 Evolution = VAPOREON,Item,WATERSTONE
 Evolution = JOLTEON,Item,THUNDERSTONE
 Evolution = FLAREON,Item,FIRESTONE
