@@ -1,6 +1,7 @@
 ﻿# See the documentation on the wiki to learn how to edit this file.
 #-------------------------------
 [EEVEE,1]
+Evolution = DRAKEON,TradeItem,DRAGONSCALE
 Evolution = VAPOREON,Item,WATERSTONE
 Evolution = JOLTEON,Item,THUNDERSTONE
 Evolution = FLAREON,Item,FIRESTONE
@@ -15,6 +16,7 @@ Evolution = FLAREON,Level,16
 [FLAREON,1]
 #-------------------------------
 [EEVEE,2]
+Evolution = DRAKEON,TradeItem,DRAGONSCALE
 Evolution = VAPOREON,Item,WATERSTONE
 Evolution = JOLTEON,Item,THUNDERSTONE
 Evolution = FLAREON,Item,FIRESTONE
@@ -29,6 +31,7 @@ Evolution = EEVEON,Level,16
 # CHANGE TO FIGHTING, ADD INHERITANCE
 #-------------------------------
 [EEVEE,3]
+Evolution = DRAKEON,TradeItem,DRAGONSCALE
 Evolution = VAPOREON,Item,WATERSTONE
 Evolution = JOLTEON,Item,THUNDERSTONE
 Evolution = FLAREON,Item,FIRESTONE
@@ -43,6 +46,7 @@ Evolution = VAPOREON,Level,16
 [VAPOREON,3]
 #-------------------------------
 [EEVEE,4]
+Evolution = DRAKEON,TradeItem,DRAGONSCALE
 Evolution = VAPOREON,Item,WATERSTONE
 Evolution = JOLTEON,Item,THUNDERSTONE
 Evolution = FLAREON,Item,FIRESTONE
@@ -57,6 +61,7 @@ Evolution = EEVEON,Level,16
 # CHANGE TO FLYING, ADD INHERITANCE
 #-------------------------------
 [EEVEE,5]
+Evolution = DRAKEON,TradeItem,DRAGONSCALE
 Evolution = VAPOREON,Item,WATERSTONE
 Evolution = JOLTEON,Item,THUNDERSTONE
 Evolution = FLAREON,Item,FIRESTONE
@@ -71,6 +76,7 @@ Evolution = LEAFEON,Level,16
 [LEAFEON,5]
 #-------------------------------
 [EEVEE,6]
+Evolution = DRAKEON,TradeItem,DRAGONSCALE
 Evolution = VAPOREON,Item,WATERSTONE
 Evolution = JOLTEON,Item,THUNDERSTONE
 Evolution = FLAREON,Item,FIRESTONE
@@ -85,6 +91,7 @@ Evolution = EEVEON,Level,16
 # CHANGE TO POISON, ADD INHERITANCE
 #-------------------------------
 [EEVEE,7]
+Evolution = DRAKEON,TradeItem,DRAGONSCALE
 Evolution = VAPOREON,Item,WATERSTONE
 Evolution = JOLTEON,Item,THUNDERSTONE
 Evolution = FLAREON,Item,FIRESTONE
@@ -99,6 +106,7 @@ Evolution = JOLTEON,Level,16
 [JOLTEON,7]
 #-------------------------------
 [EEVEE,8]
+Evolution = DRAKEON,TradeItem,DRAGONSCALE
 Evolution = VAPOREON,Item,WATERSTONE
 Evolution = JOLTEON,Item,THUNDERSTONE
 Evolution = FLAREON,Item,FIRESTONE
@@ -113,6 +121,7 @@ Evolution = EEVEON,Level,16
 # CHANGE TO GROUND, ADD INHERITANCE
 #-------------------------------
 [EEVEE,9]
+Evolution = DRAKEON,TradeItem,DRAGONSCALE
 Evolution = VAPOREON,Item,WATERSTONE
 Evolution = JOLTEON,Item,THUNDERSTONE
 Evolution = FLAREON,Item,FIRESTONE
@@ -127,6 +136,7 @@ Evolution = ESPEON,Level,16
 [ESPEON,9]
 #-------------------------------
 [EEVEE,10]
+Evolution = DRAKEON,TradeItem,DRAGONSCALE
 Evolution = VAPOREON,Item,WATERSTONE
 Evolution = JOLTEON,Item,THUNDERSTONE
 Evolution = FLAREON,Item,FIRESTONE
@@ -141,6 +151,7 @@ Evolution = STONEON,Level,16
 [STONEON,10]
 #-------------------------------
 [EEVEE,11]
+Evolution = DRAKEON,TradeItem,DRAGONSCALE
 Evolution = VAPOREON,Item,WATERSTONE
 Evolution = JOLTEON,Item,THUNDERSTONE
 Evolution = FLAREON,Item,FIRESTONE
@@ -155,6 +166,7 @@ Evolution = GLACEON,Level,16
 [GLACEON,11]
 #-------------------------------
 [EEVEE,12]
+Evolution = DRAKEON,TradeItem,DRAGONSCALE
 Evolution = VAPOREON,Item,WATERSTONE
 Evolution = JOLTEON,Item,THUNDERSTONE
 Evolution = FLAREON,Item,FIRESTONE
@@ -169,6 +181,7 @@ Evolution = EEVEON,Level,16
 # CHANGE TO BUG, ADD INHERITANCE
 #-------------------------------
 [EEVEE,13]
+Evolution = DRAKEON,TradeItem,DRAGONSCALE
 Evolution = VAPOREON,Item,WATERSTONE
 Evolution = JOLTEON,Item,THUNDERSTONE
 Evolution = FLAREON,Item,FIRESTONE
@@ -183,6 +196,7 @@ Evolution = DRAKEON,Level,16
 [DRAKEON,13]
 #-------------------------------
 [EEVEE,14]
+Evolution = DRAKEON,TradeItem,DRAGONSCALE
 Evolution = VAPOREON,Item,WATERSTONE
 Evolution = JOLTEON,Item,THUNDERSTONE
 Evolution = FLAREON,Item,FIRESTONE
@@ -197,6 +211,7 @@ Evolution = PHASEON,Level,16
 [PHASEON,14]
 #-------------------------------
 [EEVEE,15]
+Evolution = DRAKEON,TradeItem,DRAGONSCALE
 Evolution = VAPOREON,Item,WATERSTONE
 Evolution = JOLTEON,Item,THUNDERSTONE
 Evolution = FLAREON,Item,FIRESTONE
@@ -211,6 +226,7 @@ Evolution = UMBREON,Level,16
 [UMBREON,15]
 #-------------------------------
 [EEVEE,16]
+Evolution = DRAKEON,TradeItem,DRAGONSCALE
 Evolution = VAPOREON,Item,WATERSTONE
 Evolution = JOLTEON,Item,THUNDERSTONE
 Evolution = FLAREON,Item,FIRESTONE
@@ -225,6 +241,7 @@ Evolution = EEVEON,Level,16
 # CHANGE TO STEEL, ADD INHERITANCE
 #-------------------------------
 [EEVEE,17]
+Evolution = DRAKEON,TradeItem,DRAGONSCALE
 Evolution = VAPOREON,Item,WATERSTONE
 Evolution = JOLTEON,Item,THUNDERSTONE
 Evolution = FLAREON,Item,FIRESTONE
