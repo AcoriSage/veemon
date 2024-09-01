@@ -34,10 +34,11 @@ Evolution = LEAFEON,Item,LEAFSTONE
 Evolution = GLACEON,Item,ICESTONE
 Evolution = LEAFEON,LocationFlag,MossRock
 Evolution = GLACEON,LocationFlag,IceRock
+Evolution = TOXEON,LocationFlag,Pollution
 Evolution = SYLVEON,HappinessMoveType,FAIRY
 Evolution = ESPEON,HappinessDay
 Evolution = UMBREON,HappinessNight
-Evolution = TOXEON,UnhappinessDay
+Evolution = HITMEON,UnhappinessDay
 Evolution = PHASEON,UnhappinessNight
 Evolution = EEVEON,Level,16
 #-------------------------------
@@ -63,7 +64,7 @@ Color = Brown
 Shape = Quadruped
 Habitat = Urban
 Category = Standard
-Pokedex = Flareon's fluffy fur releases heat into the air so that its body does not get excessively hot. Its body temperature can rise to a maximum of 1,650 degrees F.
+Pokedex = Eeveon has more stable genetics than Eevee, but is still sensitive to environmental factors.
 Generation = 1
 #-------------------------------
 [FLAREON]
