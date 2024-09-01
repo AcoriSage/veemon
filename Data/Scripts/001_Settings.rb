@@ -14,7 +14,7 @@ module Settings
   # Note that this isn't perfect. Essentials doesn't accurately replicate every
   # single generation's mechanics. It's considered to be good enough. Only
   # generations 5 and later are reasonably supported.
-  MECHANICS_GENERATION = 8
+  MECHANICS_GENERATION = 7
 
   #-----------------------------------------------------------------------------
   # Credits
@@ -27,8 +27,8 @@ module Settings
   # automatically.
   def self.game_credits
     return [
-      _INTL("My Game by:"),
-      "Maruno",
+      _INTL("Veemon created by:"),
+      "AcoriSage",
       "",
       _INTL("Also involved were:"),
       "A. Lee Uss<s>Anne O'Nymus",
@@ -37,7 +37,7 @@ module Settings
       "Sue Donnim<s>",
       "",
       _INTL("Special thanks to:"),
-      "Pizza"
+      "All my supportive discord friends!"
     ]
   end
 
@@ -96,7 +96,7 @@ module Settings
   # location signpost anyway, so you don't need to list those maps here.
   NO_SIGNPOSTS               = []
   # Whether poisoned Pokémon will lose HP while walking around in the field.
-  POISON_IN_FIELD            = (MECHANICS_GENERATION <= 4)
+  POISON_IN_FIELD            = true
   # Whether poisoned Pokémon will faint while walking around in the field
   # (true), or survive the poisoning with 1 HP (false).
   POISON_FAINT_IN_FIELD      = (MECHANICS_GENERATION <= 3)
@@ -160,10 +160,10 @@ module Settings
   DAY_CARE_POKEMON_GAIN_EXP_FROM_WALKING     = (MECHANICS_GENERATION <= 6)
   # Whether two Pokémon in the Day Care can learn egg moves from each other if
   # they are the same species.
-  DAY_CARE_POKEMON_CAN_SHARE_EGG_MOVES       = (MECHANICS_GENERATION >= 8)
+  DAY_CARE_POKEMON_CAN_SHARE_EGG_MOVES       = true
   # Whether a bred baby Pokémon can inherit any TM/TR/HM moves from its father.
   # It can never inherit TM/TR/HM moves from its mother.
-  BREEDING_CAN_INHERIT_MACHINE_MOVES         = (MECHANICS_GENERATION <= 5)
+  BREEDING_CAN_INHERIT_MACHINE_MOVES         = true
   # Whether a bred baby Pokémon can inherit egg moves from its mother. It can
   # always inherit egg moves from its father.
   BREEDING_CAN_INHERIT_EGG_MOVES_FROM_MOTHER = (MECHANICS_GENERATION >= 6)
@@ -233,20 +233,20 @@ module Settings
   REBALANCED_HEALING_ITEM_AMOUNTS      = (MECHANICS_GENERATION >= 7)
   # Whether vitamins can add EVs no matter how many that stat already has in it
   # (true), or whether they can't make that stat's EVs greater than 100 (false).
-  NO_VITAMIN_EV_CAP                    = (MECHANICS_GENERATION >= 8)
+  NO_VITAMIN_EV_CAP                    = true
   # Whether Rage Candy Bar acts as a Full Heal (true) or a Potion (false).
   RAGE_CANDY_BAR_CURES_STATUS_PROBLEMS = (MECHANICS_GENERATION >= 7)
   # Whether the Black/White Flutes will raise/lower the levels of wild Pokémon
   # respectively (true), or will lower/raise the wild encounter rate
   # respectively (false).
-  FLUTES_CHANGE_WILD_ENCOUNTER_LEVELS  = (MECHANICS_GENERATION >= 6)
+  FLUTES_CHANGE_WILD_ENCOUNTER_LEVELS  = false
   # Whether Rare Candy can be used on a Pokémon that is already at its maximum
   # level if it is able to evolve by level-up (if so, triggers that evolution).
-  RARE_CANDY_USABLE_AT_MAX_LEVEL       = (MECHANICS_GENERATION >= 8)
+  RARE_CANDY_USABLE_AT_MAX_LEVEL       = true
   # Whether the player can choose how many of an item to use at once on a
   # Pokémon. This applies to Exp-changing items (Rare Candy, Exp Candies) and
   # EV-changing items (vitamins, feathers, EV-lowering berries).
-  USE_MULTIPLE_STAT_ITEMS_AT_ONCE      = (MECHANICS_GENERATION >= 8)
+  USE_MULTIPLE_STAT_ITEMS_AT_ONCE      = true
   # If a move taught by a TM/HM/TR replaces another move, this setting is
   # whether the machine's move retains the replaced move's PP (true), or whether
   # the machine's move has full PP (false).
@@ -254,7 +254,7 @@ module Settings
   # Whether you get 1 Premier Ball for every 10 of any kind of Poké Ball bought
   # from a Mart at once (true), or 1 Premier Ball for buying 10+ regular Poké
   # Balls (false).
-  MORE_BONUS_PREMIER_BALLS             = (MECHANICS_GENERATION >= 8)
+  MORE_BONUS_PREMIER_BALLS             = true
 
   #-----------------------------------------------------------------------------
   # Bag
@@ -345,12 +345,12 @@ module Settings
   # The default setting for Phone.rematches_enabled, which determines whether
   # trainers registered in the Phone can become ready for a rematch. If false,
   # Phone.rematches_enabled = true will enable rematches at any point you want.
-  PHONE_REMATCHES_POSSIBLE_FROM_BEGINNING     = false
+  PHONE_REMATCHES_POSSIBLE_FROM_BEGINNING     = true
   # Whether the messages in a phone call with a trainer are colored blue or red
   # depending on that trainer's gender. Note that this doesn't apply to contacts
   # whose phone calls are in a Common Event; they will need to be colored
   # manually in their Common Events.
-  COLOR_PHONE_CALL_MESSAGES_BY_CONTACT_GENDER = true
+  COLOR_PHONE_CALL_MESSAGES_BY_CONTACT_GENDER = false
 
   #-----------------------------------------------------------------------------
   # Battle starting
@@ -367,7 +367,7 @@ module Settings
   HIGHER_SHINY_CHANCES_WITH_NUMBER_BATTLED = (MECHANICS_GENERATION >= 8)
   # Whether overworld weather can set the default terrain effect in battle.
   # Storm weather sets Electric Terrain, and fog weather sets Misty Terrain.
-  OVERWORLD_WEATHER_SETS_BATTLE_TERRAIN    = (MECHANICS_GENERATION >= 8)
+  OVERWORLD_WEATHER_SETS_BATTLE_TERRAIN    = true
 
   #-----------------------------------------------------------------------------
   # Game Switches
@@ -507,7 +507,7 @@ module Settings
   # Whether the game will ask you if you want to fully compile every time you
   # start the game (in Debug mode). You will not need to hold Ctrl/Shift to
   # compile anything.
-  PROMPT_TO_COMPILE    = false
+  PROMPT_TO_COMPILE    = true
   # Whether the game will skip the Continue/New Game screen and go straight into
   # a saved game (if there is one) or start a new game (if there isn't). Only
   # applies to playing in Debug mode.
