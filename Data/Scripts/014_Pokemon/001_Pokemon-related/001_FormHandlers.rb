@@ -204,6 +204,39 @@ MultipleForms.register(:SYLVEON, {
     next 17
   }
 })
+
+MultipleForms.register(:EEVEE, {
+  "getFormOnCreation" => proc { |pkmn|
+    case pbGetEnvironment
+    when :Rock, :Cave
+      next 10 if (((pkmn.personalID >> 16) & 0xFFFF) % 10) >= 5   # Rock Type 50% chance
+      next 0 if (((pkmn.personalID >> 16) & 0xFFFF) % 10) < 5     # Normal Type 50% chance
+    when :MovingWater, :Underwater
+      next 3 if (((pkmn.personalID >> 16) & 0xFFFF) % 10) >= 5    # Water Type 50% chance
+      next 0 if (((pkmn.personalID >> 16) & 0xFFFF) % 10) < 5     # Normal Type 50% chance
+    when :Graveyard
+      next 14 if (((pkmn.personalID >> 16) & 0xFFFF) % 10) >= 5   # Ghost Type 50% chance
+      next 0 if (((pkmn.personalID >> 16) & 0xFFFF) % 10) < 5     # Normal Type 50% chance
+    when :Sand
+      next 8 if (((pkmn.personalID >> 16) & 0xFFFF) % 10) >= 5    # Ground Type 50% chance
+      next 0 if (((pkmn.personalID >> 16) & 0xFFFF) % 10) < 5     # Normal Type 50% chance
+    when :Forest, :ForestGrass
+      next 5 if (((pkmn.personalID >> 16) & 0xFFFF) % 10) >= 5    # Grass Type 50% chance
+      next 0 if (((pkmn.personalID >> 16) & 0xFFFF) % 10) < 5     # Normal Type 50% chance
+    when :Snow, :Ice
+      next 11 if (((pkmn.personalID >> 16) & 0xFFFF) % 10) >= 5   # Ice Type 50% chance
+      next 0 if (((pkmn.personalID >> 16) & 0xFFFF) % 10) < 5     # Normal Type 50% chance
+    when :Volcano
+      next 1 if (((pkmn.personalID >> 16) & 0xFFFF) % 10) >= 5    # Fire Type 50% chance
+      next 0 if (((pkmn.personalID >> 16) & 0xFFFF) % 10) < 5     # Normal Type 50% chance
+    when :Sky
+      next 4 if (((pkmn.personalID >> 16) & 0xFFFF) % 10) >= 5    # Flying Type 50% chance
+      next 0 if (((pkmn.personalID >> 16) & 0xFFFF) % 10) < 5     # Normal Type 50% chance
+    else
+      next 0   # Normal Type
+    end
+  }
+})
     
 
 MultipleForms.register(:UNOWN, {
