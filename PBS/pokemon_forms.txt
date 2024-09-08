@@ -178,7 +178,7 @@ Evolution = UMBREON,HappinessNight
 Evolution = HITMEON,UnhappinessDay
 Evolution = PHASEON,UnhappinessNight
 Evolution = STONEON,Level,16
-[STONEON,10]
+[STONLEON,10]
 #-------------------------------
 [EEVEE,11]
 Evolution = DRAKEON,TradeItem,DRAGONSCALE
