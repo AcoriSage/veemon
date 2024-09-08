@@ -172,7 +172,7 @@ MultipleForms.register(:ESPEON, {
     next 9
   }
 })
-MultipleForms.register(:STONEON, {
+MultipleForms.register(:STONLEON, {
   "getForm" => proc { |pkmn|
     next 10
   }
