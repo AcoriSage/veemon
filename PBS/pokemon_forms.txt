@@ -2,306 +2,423 @@
 #-------------------------------
 [EEVEE,1]
 Evolution = DRAKEON,TradeItem,DRAGONSCALE
+Evolution = FERREON,TradeItem,METALCOAT
 Evolution = VAPOREON,Item,WATERSTONE
 Evolution = JOLTEON,Item,THUNDERSTONE
 Evolution = FLAREON,Item,FIRESTONE
 Evolution = LEAFEON,Item,LEAFSTONE
 Evolution = GLACEON,Item,ICESTONE
+Evolution = CORROSEON,Status,POISON
+Evolution = STONLEON,HoldItem,HARDSTONE
 Evolution = LEAFEON,LocationFlag,MossRock
 Evolution = GLACEON,LocationFlag,IceRock
-Evolution = TOXEON,LocationFlag,Pollution
+Evolution = FERREON,LocationFlag,Magnetic
+Evolution = DUSTEON,LevelSandstorm,1
+Evolution = GLACEON,LevelSnow,1
+Evolution = VAPOREON,LevelDiving,1
 Evolution = SYLVEON,HappinessMoveType,FAIRY
 Evolution = ESPEON,HappinessDay
 Evolution = UMBREON,HappinessNight
-Evolution = HITMEON,UnhappinessDay
+Evolution = BRAWLEON,UnhappinessDay
 Evolution = PHASEON,UnhappinessNight
+Evolution = LARVEON,Ball,SAFARIBALL
 Evolution = FLAREON,Level,16
 [FLAREON,1]
 #-------------------------------
 [EEVEE,2]
 Evolution = DRAKEON,TradeItem,DRAGONSCALE
+Evolution = FERREON,TradeItem,METALCOAT
 Evolution = VAPOREON,Item,WATERSTONE
 Evolution = JOLTEON,Item,THUNDERSTONE
 Evolution = FLAREON,Item,FIRESTONE
 Evolution = LEAFEON,Item,LEAFSTONE
 Evolution = GLACEON,Item,ICESTONE
+Evolution = CORROSEON,Status,POISON
+Evolution = STONLEON,HoldItem,HARDSTONE
 Evolution = LEAFEON,LocationFlag,MossRock
 Evolution = GLACEON,LocationFlag,IceRock
-Evolution = TOXEON,LocationFlag,Pollution
+Evolution = FERREON,LocationFlag,Magnetic
+Evolution = DUSTEON,LevelSandstorm,1
+Evolution = GLACEON,LevelSnow,1
+Evolution = VAPOREON,LevelDiving,1
 Evolution = SYLVEON,HappinessMoveType,FAIRY
 Evolution = ESPEON,HappinessDay
 Evolution = UMBREON,HappinessNight
-Evolution = HITMEON,UnhappinessDay
+Evolution = BRAWLEON,UnhappinessDay
 Evolution = PHASEON,UnhappinessNight
-Evolution = HITMEON,Level,16
+Evolution = LARVEON,Ball,SAFARIBALL
+Evolution = BRAWLEON,Level,16
 [HITMEON,2]
 #-------------------------------
 [EEVEE,3]
 Evolution = DRAKEON,TradeItem,DRAGONSCALE
+Evolution = FERREON,TradeItem,METALCOAT
 Evolution = VAPOREON,Item,WATERSTONE
 Evolution = JOLTEON,Item,THUNDERSTONE
 Evolution = FLAREON,Item,FIRESTONE
 Evolution = LEAFEON,Item,LEAFSTONE
 Evolution = GLACEON,Item,ICESTONE
+Evolution = CORROSEON,Status,POISON
+Evolution = STONLEON,HoldItem,HARDSTONE
 Evolution = LEAFEON,LocationFlag,MossRock
 Evolution = GLACEON,LocationFlag,IceRock
-Evolution = TOXEON,LocationFlag,Pollution
+Evolution = FERREON,LocationFlag,Magnetic
+Evolution = DUSTEON,LevelSandstorm,1
+Evolution = GLACEON,LevelSnow,1
+Evolution = VAPOREON,LevelDiving,1
 Evolution = SYLVEON,HappinessMoveType,FAIRY
 Evolution = ESPEON,HappinessDay
 Evolution = UMBREON,HappinessNight
-Evolution = HITMEON,UnhappinessDay
+Evolution = BRAWLEON,UnhappinessDay
 Evolution = PHASEON,UnhappinessNight
+Evolution = LARVEON,Ball,SAFARIBALL
 Evolution = VAPOREON,Level,16
 [VAPOREON,3]
 #-------------------------------
 [EEVEE,4]
 Evolution = DRAKEON,TradeItem,DRAGONSCALE
+Evolution = FERREON,TradeItem,METALCOAT
 Evolution = VAPOREON,Item,WATERSTONE
 Evolution = JOLTEON,Item,THUNDERSTONE
 Evolution = FLAREON,Item,FIRESTONE
 Evolution = LEAFEON,Item,LEAFSTONE
 Evolution = GLACEON,Item,ICESTONE
+Evolution = CORROSEON,Status,POISON
+Evolution = STONLEON,HoldItem,HARDSTONE
 Evolution = LEAFEON,LocationFlag,MossRock
 Evolution = GLACEON,LocationFlag,IceRock
-Evolution = TOXEON,LocationFlag,Pollution
+Evolution = FERREON,LocationFlag,Magnetic
+Evolution = DUSTEON,LevelSandstorm,1
+Evolution = GLACEON,LevelSnow,1
+Evolution = VAPOREON,LevelDiving,1
 Evolution = SYLVEON,HappinessMoveType,FAIRY
 Evolution = ESPEON,HappinessDay
 Evolution = UMBREON,HappinessNight
-Evolution = HITMEON,UnhappinessDay
+Evolution = BRAWLEON,UnhappinessDay
 Evolution = PHASEON,UnhappinessNight
-Evolution = EEVEON,Level,16
+Evolution = LARVEON,Ball,SAFARIBALL
 # CHANGE TO FLYING, ADD INHERITANCE
 #-------------------------------
 [EEVEE,5]
 Evolution = DRAKEON,TradeItem,DRAGONSCALE
+Evolution = FERREON,TradeItem,METALCOAT
 Evolution = VAPOREON,Item,WATERSTONE
 Evolution = JOLTEON,Item,THUNDERSTONE
 Evolution = FLAREON,Item,FIRESTONE
 Evolution = LEAFEON,Item,LEAFSTONE
 Evolution = GLACEON,Item,ICESTONE
+Evolution = CORROSEON,Status,POISON
+Evolution = STONLEON,HoldItem,HARDSTONE
 Evolution = LEAFEON,LocationFlag,MossRock
 Evolution = GLACEON,LocationFlag,IceRock
-Evolution = TOXEON,LocationFlag,Pollution
+Evolution = FERREON,LocationFlag,Magnetic
+Evolution = DUSTEON,LevelSandstorm,1
+Evolution = GLACEON,LevelSnow,1
+Evolution = VAPOREON,LevelDiving,1
 Evolution = SYLVEON,HappinessMoveType,FAIRY
 Evolution = ESPEON,HappinessDay
 Evolution = UMBREON,HappinessNight
-Evolution = HITMEON,UnhappinessDay
+Evolution = BRAWLEON,UnhappinessDay
 Evolution = PHASEON,UnhappinessNight
+Evolution = LARVEON,Ball,SAFARIBALL
 Evolution = LEAFEON,Level,16
 [LEAFEON,5]
 #-------------------------------
 [EEVEE,6]
 Evolution = DRAKEON,TradeItem,DRAGONSCALE
+Evolution = FERREON,TradeItem,METALCOAT
 Evolution = VAPOREON,Item,WATERSTONE
 Evolution = JOLTEON,Item,THUNDERSTONE
 Evolution = FLAREON,Item,FIRESTONE
 Evolution = LEAFEON,Item,LEAFSTONE
 Evolution = GLACEON,Item,ICESTONE
+Evolution = CORROSEON,Status,POISON
+Evolution = STONLEON,HoldItem,HARDSTONE
 Evolution = LEAFEON,LocationFlag,MossRock
 Evolution = GLACEON,LocationFlag,IceRock
-Evolution = TOXEON,LocationFlag,Pollution
+Evolution = FERREON,LocationFlag,Magnetic
+Evolution = DUSTEON,LevelSandstorm,1
+Evolution = GLACEON,LevelSnow,1
+Evolution = VAPOREON,LevelDiving,1
 Evolution = SYLVEON,HappinessMoveType,FAIRY
 Evolution = ESPEON,HappinessDay
 Evolution = UMBREON,HappinessNight
-Evolution = HITMEON,UnhappinessDay
+Evolution = BRAWLEON,UnhappinessDay
 Evolution = PHASEON,UnhappinessNight
-Evolution = TOXEON,Level,16
+Evolution = LARVEON,Ball,SAFARIBALL
+Evolution = CORROSEON,Level,16
 [TOXEON,6]
 #-------------------------------
 [EEVEE,7]
 Evolution = DRAKEON,TradeItem,DRAGONSCALE
+Evolution = FERREON,TradeItem,METALCOAT
 Evolution = VAPOREON,Item,WATERSTONE
 Evolution = JOLTEON,Item,THUNDERSTONE
 Evolution = FLAREON,Item,FIRESTONE
 Evolution = LEAFEON,Item,LEAFSTONE
 Evolution = GLACEON,Item,ICESTONE
+Evolution = CORROSEON,Status,POISON
+Evolution = STONLEON,HoldItem,HARDSTONE
 Evolution = LEAFEON,LocationFlag,MossRock
 Evolution = GLACEON,LocationFlag,IceRock
-Evolution = TOXEON,LocationFlag,Pollution
+Evolution = FERREON,LocationFlag,Magnetic
+Evolution = DUSTEON,LevelSandstorm,1
+Evolution = GLACEON,LevelSnow,1
+Evolution = VAPOREON,LevelDiving,1
 Evolution = SYLVEON,HappinessMoveType,FAIRY
 Evolution = ESPEON,HappinessDay
 Evolution = UMBREON,HappinessNight
-Evolution = HITMEON,UnhappinessDay
+Evolution = BRAWLEON,UnhappinessDay
 Evolution = PHASEON,UnhappinessNight
+Evolution = LARVEON,Ball,SAFARIBALL
 Evolution = JOLTEON,Level,16
 [JOLTEON,7]
 #-------------------------------
 [EEVEE,8]
 Evolution = DRAKEON,TradeItem,DRAGONSCALE
+Evolution = FERREON,TradeItem,METALCOAT
 Evolution = VAPOREON,Item,WATERSTONE
 Evolution = JOLTEON,Item,THUNDERSTONE
 Evolution = FLAREON,Item,FIRESTONE
 Evolution = LEAFEON,Item,LEAFSTONE
 Evolution = GLACEON,Item,ICESTONE
+Evolution = CORROSEON,Status,POISON
+Evolution = STONLEON,HoldItem,HARDSTONE
 Evolution = LEAFEON,LocationFlag,MossRock
 Evolution = GLACEON,LocationFlag,IceRock
-Evolution = TOXEON,LocationFlag,Pollution
+Evolution = FERREON,LocationFlag,Magnetic
+Evolution = DUSTEON,LevelSandstorm,1
+Evolution = GLACEON,LevelSnow,1
+Evolution = VAPOREON,LevelDiving,1
 Evolution = SYLVEON,HappinessMoveType,FAIRY
 Evolution = ESPEON,HappinessDay
 Evolution = UMBREON,HappinessNight
-Evolution = HITMEON,UnhappinessDay
+Evolution = BRAWLEON,UnhappinessDay
 Evolution = PHASEON,UnhappinessNight
+Evolution = LARVEON,Ball,SAFARIBALL
 Evolution = EEVEON,Level,16
 # CHANGE TO GROUND, ADD INHERITANCE
 #-------------------------------
 [EEVEE,9]
 Evolution = DRAKEON,TradeItem,DRAGONSCALE
+Evolution = FERREON,TradeItem,METALCOAT
 Evolution = VAPOREON,Item,WATERSTONE
 Evolution = JOLTEON,Item,THUNDERSTONE
 Evolution = FLAREON,Item,FIRESTONE
 Evolution = LEAFEON,Item,LEAFSTONE
 Evolution = GLACEON,Item,ICESTONE
+Evolution = CORROSEON,Status,POISON
+Evolution = STONLEON,HoldItem,HARDSTONE
 Evolution = LEAFEON,LocationFlag,MossRock
 Evolution = GLACEON,LocationFlag,IceRock
-Evolution = TOXEON,LocationFlag,Pollution
+Evolution = FERREON,LocationFlag,Magnetic
+Evolution = DUSTEON,LevelSandstorm,1
+Evolution = GLACEON,LevelSnow,1
+Evolution = VAPOREON,LevelDiving,1
 Evolution = SYLVEON,HappinessMoveType,FAIRY
 Evolution = ESPEON,HappinessDay
 Evolution = UMBREON,HappinessNight
-Evolution = HITMEON,UnhappinessDay
+Evolution = BRAWLEON,UnhappinessDay
 Evolution = PHASEON,UnhappinessNight
+Evolution = LARVEON,Ball,SAFARIBALL
 Evolution = ESPEON,Level,16
 [ESPEON,9]
 #-------------------------------
 [EEVEE,10]
 Evolution = DRAKEON,TradeItem,DRAGONSCALE
+Evolution = FERREON,TradeItem,METALCOAT
 Evolution = VAPOREON,Item,WATERSTONE
 Evolution = JOLTEON,Item,THUNDERSTONE
 Evolution = FLAREON,Item,FIRESTONE
 Evolution = LEAFEON,Item,LEAFSTONE
 Evolution = GLACEON,Item,ICESTONE
+Evolution = CORROSEON,Status,POISON
+Evolution = STONLEON,HoldItem,HARDSTONE
 Evolution = LEAFEON,LocationFlag,MossRock
 Evolution = GLACEON,LocationFlag,IceRock
-Evolution = TOXEON,LocationFlag,Pollution
+Evolution = FERREON,LocationFlag,Magnetic
+Evolution = DUSTEON,LevelSandstorm,1
+Evolution = GLACEON,LevelSnow,1
+Evolution = VAPOREON,LevelDiving,1
 Evolution = SYLVEON,HappinessMoveType,FAIRY
 Evolution = ESPEON,HappinessDay
 Evolution = UMBREON,HappinessNight
-Evolution = HITMEON,UnhappinessDay
+Evolution = BRAWLEON,UnhappinessDay
 Evolution = PHASEON,UnhappinessNight
-Evolution = STONEON,Level,16
+Evolution = LARVEON,Ball,SAFARIBALL
+Evolution = STONLEON,Level,16
 [STONLEON,10]
 #-------------------------------
 [EEVEE,11]
 Evolution = DRAKEON,TradeItem,DRAGONSCALE
+Evolution = FERREON,TradeItem,METALCOAT
 Evolution = VAPOREON,Item,WATERSTONE
 Evolution = JOLTEON,Item,THUNDERSTONE
 Evolution = FLAREON,Item,FIRESTONE
 Evolution = LEAFEON,Item,LEAFSTONE
 Evolution = GLACEON,Item,ICESTONE
+Evolution = CORROSEON,Status,POISON
+Evolution = STONLEON,HoldItem,HARDSTONE
 Evolution = LEAFEON,LocationFlag,MossRock
 Evolution = GLACEON,LocationFlag,IceRock
-Evolution = TOXEON,LocationFlag,Pollution
+Evolution = FERREON,LocationFlag,Magnetic
+Evolution = DUSTEON,LevelSandstorm,1
+Evolution = GLACEON,LevelSnow,1
+Evolution = VAPOREON,LevelDiving,1
 Evolution = SYLVEON,HappinessMoveType,FAIRY
 Evolution = ESPEON,HappinessDay
 Evolution = UMBREON,HappinessNight
-Evolution = HITMEON,UnhappinessDay
+Evolution = BRAWLEON,UnhappinessDay
 Evolution = PHASEON,UnhappinessNight
+Evolution = LARVEON,Ball,SAFARIBALL
 Evolution = GLACEON,Level,16
 [GLACEON,11]
 #-------------------------------
 [EEVEE,12]
 Evolution = DRAKEON,TradeItem,DRAGONSCALE
+Evolution = FERREON,TradeItem,METALCOAT
 Evolution = VAPOREON,Item,WATERSTONE
 Evolution = JOLTEON,Item,THUNDERSTONE
 Evolution = FLAREON,Item,FIRESTONE
 Evolution = LEAFEON,Item,LEAFSTONE
 Evolution = GLACEON,Item,ICESTONE
+Evolution = CORROSEON,Status,POISON
+Evolution = STONLEON,HoldItem,HARDSTONE
 Evolution = LEAFEON,LocationFlag,MossRock
 Evolution = GLACEON,LocationFlag,IceRock
-Evolution = TOXEON,LocationFlag,Pollution
+Evolution = FERREON,LocationFlag,Magnetic
+Evolution = DUSTEON,LevelSandstorm,1
+Evolution = GLACEON,LevelSnow,1
+Evolution = VAPOREON,LevelDiving,1
 Evolution = SYLVEON,HappinessMoveType,FAIRY
 Evolution = ESPEON,HappinessDay
 Evolution = UMBREON,HappinessNight
-Evolution = HITMEON,UnhappinessDay
+Evolution = BRAWLEON,UnhappinessDay
 Evolution = PHASEON,UnhappinessNight
+Evolution = LARVEON,Ball,SAFARIBALL
 Evolution = EEVEON,Level,16
 # CHANGE TO BUG, ADD INHERITANCE
 #-------------------------------
 [EEVEE,13]
 Evolution = DRAKEON,TradeItem,DRAGONSCALE
+Evolution = FERREON,TradeItem,METALCOAT
 Evolution = VAPOREON,Item,WATERSTONE
 Evolution = JOLTEON,Item,THUNDERSTONE
 Evolution = FLAREON,Item,FIRESTONE
 Evolution = LEAFEON,Item,LEAFSTONE
 Evolution = GLACEON,Item,ICESTONE
+Evolution = CORROSEON,Status,POISON
+Evolution = STONLEON,HoldItem,HARDSTONE
 Evolution = LEAFEON,LocationFlag,MossRock
 Evolution = GLACEON,LocationFlag,IceRock
-Evolution = TOXEON,LocationFlag,Pollution
+Evolution = FERREON,LocationFlag,Magnetic
+Evolution = DUSTEON,LevelSandstorm,1
+Evolution = GLACEON,LevelSnow,1
+Evolution = VAPOREON,LevelDiving,1
 Evolution = SYLVEON,HappinessMoveType,FAIRY
 Evolution = ESPEON,HappinessDay
 Evolution = UMBREON,HappinessNight
-Evolution = HITMEON,UnhappinessDay
+Evolution = BRAWLEON,UnhappinessDay
 Evolution = PHASEON,UnhappinessNight
+Evolution = LARVEON,Ball,SAFARIBALL
 Evolution = DRAKEON,Level,16
 [DRAKEON,13]
 #-------------------------------
 [EEVEE,14]
 Evolution = DRAKEON,TradeItem,DRAGONSCALE
+Evolution = FERREON,TradeItem,METALCOAT
 Evolution = VAPOREON,Item,WATERSTONE
 Evolution = JOLTEON,Item,THUNDERSTONE
 Evolution = FLAREON,Item,FIRESTONE
 Evolution = LEAFEON,Item,LEAFSTONE
 Evolution = GLACEON,Item,ICESTONE
+Evolution = CORROSEON,Status,POISON
+Evolution = STONLEON,HoldItem,HARDSTONE
 Evolution = LEAFEON,LocationFlag,MossRock
 Evolution = GLACEON,LocationFlag,IceRock
-Evolution = TOXEON,LocationFlag,Pollution
+Evolution = FERREON,LocationFlag,Magnetic
+Evolution = DUSTEON,LevelSandstorm,1
+Evolution = GLACEON,LevelSnow,1
+Evolution = VAPOREON,LevelDiving,1
 Evolution = SYLVEON,HappinessMoveType,FAIRY
 Evolution = ESPEON,HappinessDay
 Evolution = UMBREON,HappinessNight
-Evolution = HITMEON,UnhappinessDay
+Evolution = BRAWLEON,UnhappinessDay
 Evolution = PHASEON,UnhappinessNight
+Evolution = LARVEON,Ball,SAFARIBALL
 Evolution = PHASEON,Level,16
 [PHASEON,14]
 #-------------------------------
 [EEVEE,15]
 Evolution = DRAKEON,TradeItem,DRAGONSCALE
+Evolution = FERREON,TradeItem,METALCOAT
 Evolution = VAPOREON,Item,WATERSTONE
 Evolution = JOLTEON,Item,THUNDERSTONE
 Evolution = FLAREON,Item,FIRESTONE
 Evolution = LEAFEON,Item,LEAFSTONE
 Evolution = GLACEON,Item,ICESTONE
+Evolution = CORROSEON,Status,POISON
+Evolution = STONLEON,HoldItem,HARDSTONE
 Evolution = LEAFEON,LocationFlag,MossRock
 Evolution = GLACEON,LocationFlag,IceRock
-Evolution = TOXEON,LocationFlag,Pollution
+Evolution = FERREON,LocationFlag,Magnetic
+Evolution = DUSTEON,LevelSandstorm,1
+Evolution = GLACEON,LevelSnow,1
+Evolution = VAPOREON,LevelDiving,1
 Evolution = SYLVEON,HappinessMoveType,FAIRY
 Evolution = ESPEON,HappinessDay
 Evolution = UMBREON,HappinessNight
-Evolution = HITMEON,UnhappinessDay
+Evolution = BRAWLEON,UnhappinessDay
 Evolution = PHASEON,UnhappinessNight
+Evolution = LARVEON,Ball,SAFARIBALL
 Evolution = UMBREON,Level,16
 [UMBREON,15]
 #-------------------------------
 [EEVEE,16]
 Evolution = DRAKEON,TradeItem,DRAGONSCALE
+Evolution = FERREON,TradeItem,METALCOAT
 Evolution = VAPOREON,Item,WATERSTONE
 Evolution = JOLTEON,Item,THUNDERSTONE
 Evolution = FLAREON,Item,FIRESTONE
 Evolution = LEAFEON,Item,LEAFSTONE
 Evolution = GLACEON,Item,ICESTONE
+Evolution = CORROSEON,Status,POISON
+Evolution = STONLEON,HoldItem,HARDSTONE
 Evolution = LEAFEON,LocationFlag,MossRock
 Evolution = GLACEON,LocationFlag,IceRock
-Evolution = TOXEON,LocationFlag,Pollution
+Evolution = FERREON,LocationFlag,Magnetic
+Evolution = DUSTEON,LevelSandstorm,1
+Evolution = GLACEON,LevelSnow,1
+Evolution = VAPOREON,LevelDiving,1
 Evolution = SYLVEON,HappinessMoveType,FAIRY
 Evolution = ESPEON,HappinessDay
 Evolution = UMBREON,HappinessNight
-Evolution = HITMEON,UnhappinessDay
+Evolution = BRAWLEON,UnhappinessDay
 Evolution = PHASEON,UnhappinessNight
-Evolution = EEVEON,Level,16
+Evolution = LARVEON,Ball,SAFARIBALL
 # CHANGE TO STEEL, ADD INHERITANCE
 #-------------------------------
 [EEVEE,17]
 Evolution = DRAKEON,TradeItem,DRAGONSCALE
+Evolution = FERREON,TradeItem,METALCOAT
 Evolution = VAPOREON,Item,WATERSTONE
 Evolution = JOLTEON,Item,THUNDERSTONE
 Evolution = FLAREON,Item,FIRESTONE
 Evolution = LEAFEON,Item,LEAFSTONE
 Evolution = GLACEON,Item,ICESTONE
+Evolution = CORROSEON,Status,POISON
+Evolution = STONLEON,HoldItem,HARDSTONE
 Evolution = LEAFEON,LocationFlag,MossRock
 Evolution = GLACEON,LocationFlag,IceRock
-Evolution = TOXEON,LocationFlag,Pollution
+Evolution = FERREON,LocationFlag,Magnetic
+Evolution = DUSTEON,LevelSandstorm,1
+Evolution = GLACEON,LevelSnow,1
+Evolution = VAPOREON,LevelDiving,1
 Evolution = SYLVEON,HappinessMoveType,FAIRY
 Evolution = ESPEON,HappinessDay
 Evolution = UMBREON,HappinessNight
-Evolution = HITMEON,UnhappinessDay
+Evolution = BRAWLEON,UnhappinessDay
 Evolution = PHASEON,UnhappinessNight
+Evolution = LARVEON,Ball,SAFARIBALL
 Evolution = SYLVEON,Level,16
 [SYLVEON,17]
