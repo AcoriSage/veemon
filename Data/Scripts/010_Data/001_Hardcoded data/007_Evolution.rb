@@ -846,3 +846,23 @@ GameData::Evolution.register({
     next value == parameter && pkmn.ready_to_evolve
   }
 })
+
+# My own totally original evolution methods
+
+GameData::Evolution.register({
+  :id            => :Status,
+  :parameter     => :Status,
+  :any_level_up  => true,   # Needs any level up
+  :level_up_proc => proc { |pkmn, parameter|
+    next pkmn.status == parameter
+  }
+})
+
+GameData::Evolution.register({
+  :id            => :Ball,
+  :parameter     => :Item,
+  :any_level_up  => true,   # Needs any level up
+  :level_up_proc => proc { |pkmn, parameter|
+    next pkmn.poke_ball == parameter
+  }
+})
