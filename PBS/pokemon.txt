@@ -33,6 +33,7 @@ Evolution = JOLTEON,Item,THUNDERSTONE
 Evolution = FLAREON,Item,FIRESTONE
 Evolution = LEAFEON,Item,LEAFSTONE
 Evolution = GLACEON,Item,ICESTONE
+Evolution = WINGEON,BattleDealCriticalHit,2
 Evolution = CORROSEON,Status,POISON
 Evolution = STONLEON,HoldItem,HARDSTONE
 Evolution = LEAFEON,LocationFlag,MossRock
@@ -48,6 +49,30 @@ Evolution = BRAWLEON,UnhappinessDay
 Evolution = PHASEON,UnhappinessNight
 Evolution = LARVEON,Ball,SAFARIBALL
 Evolution = EEVEON,Level,16
+#-------------------------------
+[TEMPLATEON]
+Name = Templateon
+Types = NORMAL
+BaseStats = 60,65,65,95,110,130
+GenderRatio = FemaleOneEighth
+GrowthRate = Medium
+BaseExp = 184
+EVs = STATNAME,2
+CatchRate = 45
+Happiness = 50
+Abilities = 
+HiddenAbilities = 
+Moves = 0,typeattack,1,COVET,1,SWIFT,1,COPYCAT,1,BATONPASS,1,TAKEDOWN,1,CHARM,1,DOUBLEEDGE,1,HELPINGHAND,1,TACKLE,1,GROWL,1,TAILWHIP,5,SANDATTACK,10,QUICKATTACK,15,BABYDOLLEYES,20,move,25,move,30,move,35,mvoe,40,move,45,move,50,move,55,LASTRESORT
+TutorMoves = ATTRACT,BATONPASS,BODYSLAM,CAPTIVATE,CHARM,CONFIDE,COVET,DIG,DOUBLEEDGE,DOUBLETEAM,ECHOEDVOICE,ENDURE,FACADE,FAKETEARS,FOCUSENERGY,FRUSTRATION,GIGAIMPACT,HEADBUTT,HEALBELL,HELPINGHAND,HIDDENPOWER,HYPERBEAM,HYPERVOICE,IRONTAIL,LASERFOCUS,LASTRESORT,MIMIC,MUDSLAP,NATURALGIFT,PAYDAY,PROTECT,RAINDANCE,REST,RETALIATE,RETURN,ROUND,SECRETPOWER,SHADOWBALL,SLEEPTALK,SNORE,STOREDPOWER,SUBSTITUTE,SUNNYDAY,SWAGGER,SWIFT,WEATHERBALL,WORKUP 15-20 more
+EggGroups = Field
+HatchSteps = 8960
+Height = 0.9
+Weight = 25.9
+Color = Brown
+Shape = Quadruped
+Habitat = Urban
+Category = Standard
+Pokedex = This is a template for first-round Eeveelutions. It will be deleted when they are all made.
 #-------------------------------
 [EEVEON]
 Name = Eeveon
@@ -71,7 +96,7 @@ Color = Brown
 Shape = Quadruped
 Habitat = Urban
 Category = Standard
-Pokedex = Eeveon has more stable genetics than Eevee, but is still sensitive to environmental factors.
+Pokedex = Eeveon has somewhat stabilized genetics, but is still sensitive to environmental factors.
 Generation = 1
 #-------------------------------
 [FLAREON]
@@ -99,6 +124,30 @@ Category = Flame
 Pokedex = Flareon's fluffy fur releases heat into the air so that its body does not get excessively hot. Its body temperature can rise to a maximum of 1,650 degrees F.
 Generation = 1
 #-------------------------------
+[BRAWLEON]
+Name = Brawleon
+Types = FIGHTING
+BaseStats = 95,130,65,60,65,110
+GenderRatio = FemaleOneEighth
+GrowthRate = Medium
+BaseExp = 184
+EVs = ATTACK,2
+CatchRate = 45
+Happiness = 50
+Abilities = INNARDSOUT
+HiddenAbilities = BEASTBOOST
+Moves = 0,MACHPUNCH,1,COVET,1,SWIFT,1,COPYCAT,1,BATONPASS,1,TAKEDOWN,1,CHARM,1,DOUBLEEDGE,1,HELPINGHAND,1,TACKLE,1,GROWL,1,TAILWHIP,5,SANDATTACK,10,QUICKATTACK,15,BABYDOLLEYES,20,COUNTER,25,BITE,30,REVENGE,35,TORMENT,40,NORETREAT,45,REVERSAL,50,FINALGAMBIT,55,LASTRESORT
+TutorMoves = ASSURANCE,ATTRACT,BATONPASS,BODYPRESS,BODYSLAM,BREAKINGSWIPE,BRICKBREAK,BRUTALSWING,BULKUP,CAPTIVATE,CHARM,CLOSECOMBAT,CONFIDE,COVET,CRUNCH,DIG,DOUBLEEDGE,DOUBLETEAM,ECHOEDVOICE,ENDURE,FACADE,FAKETEARS,FOCUSENERGY,FOULPLAY,FRUSTRATION,GIGAIMPACT,HEADBUTT,HEALBELL,HELPINGHAND,HIDDENPOWER,HYPERBEAM,HYPERVOICE,IRONTAIL,LASERFOCUS,LASTRESORT,LOWSWEEP,MEGAKICK,MIMIC,MUDSLAP,NATURALGIFT,OUTRAGE,PAYBACK,PAYDAY,PROTECT,RAINDANCE,REST,RETALIATE,RETURN,ROUND,SCARYFACE,SECRETPOWER,SHADOWBALL,SLEEPTALK,SNORE,STOMPINGTANTRUM,STOREDPOWER,SUBSTITUTE,SUNNYDAY,SWAGGER,SWIFT,SWORDSDANCE,TAILSLAP,THROATCHOP,WEATHERBALL,WORKUP
+EggGroups = Field
+HatchSteps = 8960
+Height = 1.1
+Weight = 26.0
+Color = Brown
+Shape = Quadruped
+Habitat = Urban
+Category = Standard
+Pokedex = It doesn't seem to trust anyone. If Brawleon cannot avoid a fight, it will attack with all its strength and fury.
+#-------------------------------
 [VAPOREON]
 Name = Vaporeon
 Types = WATER
@@ -124,6 +173,30 @@ Category = Bubble Jet
 Pokedex = Vaporeon underwent a spontaneous mutation and grew fins and gills that allow them to live underwater. They have the ability to freely control water.
 Generation = 1
 #-------------------------------
+[WINGEON]
+Name = Wingeon
+Types = FLYING
+BaseStats = 95,60,65,110,65,130
+GenderRatio = FemaleOneEighth
+GrowthRate = Medium
+BaseExp = 184
+EVs = SPEED,2
+CatchRate = 45
+Happiness = 50
+Abilities = SNIPER
+HiddenAbilities = GALEWINGS
+Moves = 0,GUST,1,COVET,1,SWIFT,1,COPYCAT,1,BATONPASS,1,TAKEDOWN,1,CHARM,1,DOUBLEEDGE,1,HELPINGHAND,1,TACKLE,1,GROWL,1,TAILWHIP,5,SANDATTACK,10,QUICKATTACK,15,BABYDOLLEYES,20,WINGATTACK,25,AIRCUTTER,30,FEATHERDANCE,35,SKYDROP,40,AEROBLAST,45,FOCUSENERGY,50,SKYATTACK,55,LASTRESORT
+TutorMoves = ACROBATICS,AGILITY,AIRSLASH,ALLYSWITCH,ATTRACT,BATONPASS,BODYSLAM,BOUNCE,BRAVEBIRD,CALMMIND,CAPTIVATE,CHARM,CONFIDE,COVET,DIG,DOUBLEEDGE,DOUBLETEAM,ECHOEDVOICE,ENDURE,FACADE,FAKETEARS,FLY,FOCUSENERGY,FRUSTRATION,GIGAIMPACT,HEADBUTT,HEALBELL,HELPINGHAND,HIDDENPOWER,HURRICANE,HYPERBEAM,HYPERVOICE,ICYWIND,IRONTAIL,LASERFOCUS,LASTRESORT,LIGHTSCREEN,MIMIC,MUDSLAP,NATURALGIFT,PAYDAY,PROTECT,RAINDANCE,REFLECT,REST,RETALIATE,RETURN,ROUND,SCREECH,SECRETPOWER,SHADOWBALL,SLEEPTALK,SNORE,STEELWING,STOREDPOWER,SUBSTITUTE,SUNNYDAY,SWAGGER,SWIFT,SWORDSDANCE,UPROAR,WEATHERBALL,WORKUP
+EggGroups = Field
+HatchSteps = 8960
+Height = 0.9
+Weight = 25.9
+Color = Brown
+Shape = Quadruped
+Habitat = Urban
+Category = Standard
+Pokedex = Wingeon is a remarkably precise flyer, seeming to dance effortlessly through the air. It has been seen playing by using clouds as an obstacle course.
+#-------------------------------
 [LEAFEON]
 Name = Leafeon
 Types = GRASS
@@ -147,6 +220,31 @@ Shape = Quadruped
 Category = Verdant
 Pokedex = Just like a plant, it uses photosynthesis. As a result, it is always enveloped in clear air.
 Generation = 4
+#-------------------------------
+[CORROSEON]
+Name = Corroseon
+Types = POISON
+BaseStats = 65,60,95,110,130,65
+60,65,65,95,110,130
+GenderRatio = FemaleOneEighth
+GrowthRate = Medium
+BaseExp = 184
+EVs = SPECIAL_DEFENSE,2
+CatchRate = 45
+Happiness = 50
+Abilities = CORROSION
+HiddenAbilities = POISONTOUCH
+Moves = 0,ACID,1,COVET,1,SWIFT,1,COPYCAT,1,BATONPASS,1,TAKEDOWN,1,CHARM,1,DOUBLEEDGE,1,HELPINGHAND,1,TACKLE,1,GROWL,1,TAILWHIP,5,SANDATTACK,10,QUICKATTACK,15,BABYDOLLEYES,20,CORROSIVEGAS,25,POISONFANG,30,VENOSHOCK,35,SLUDGEBOMB,40,ACIDARMOR,45,VENOMDRENCH,50,TOXICTHREAD,55,LASTRESORT
+TutorMoves = ATTRACT,BATONPASS,BODYSLAM,CAPTIVATE,CHARM,CONFIDE,COVET,CROSSPOISON,DARKPULSE,DIG,DOUBLEEDGE,DOUBLETEAM,ECHOEDVOICE,ENDURE,FACADE,FAKETEARS,FOCUSENERGY,FOULPLAY,FRUSTRATION,GIGAIMPACT,GUNKSHOT,HEADBUTT,HEALBELL,HELPINGHAND,HIDDENPOWER,HYPERBEAM,HYPERVOICE,IRONTAIL,LASERFOCUS,LASTRESORT,LEECHLIFE,MIMIC,MUDDYWATER,MUDSLAP,NASTYPLOT,NATURALGIFT,PAYDAY,POISONJAB,POLLENPUFF,PROTECT,RAINDANCE,REST,RETALIATE,RETURN,ROUND,SCARYFACE,SECRETPOWER,SHADOWBALL,SLEEPTALK,SLUDGEBOMB,SLUDGEWAVE,SNORE,STOREDPOWER,SUBSTITUTE,SUNNYDAY,SWAGGER,SWIFT,TAUNT,TOXICSPIKES,VENOMDRENCH,VENOSHOCK,WEATHERBALL,WORKUP
+EggGroups = Field
+HatchSteps = 8960
+Height = 0.9
+Weight = 25.9
+Color = Brown
+Shape = Quadruped
+Habitat = Urban
+Category = Standard
+Pokedex = Powerful toxins run through Corroseon's bloodstream. When threatened, it can mix these toxins into a concentrated acid that can even melt steel.
 #-------------------------------
 [JOLTEON]
 Name = Jolteon
@@ -221,6 +319,30 @@ Shape = Quadruped
 Category = Fresh Snow
 Pokedex = As a protective technique, it can completely freeze its fur to make its hairs stand like needles.
 Generation = 4
+#-------------------------------
+[PHASEON]
+Name = Phaseon
+Types = GHOST
+BaseStats = 95,60,65,110,130,65
+GenderRatio = FemaleOneEighth
+GrowthRate = Medium
+BaseExp = 184
+EVs = SPECIAL_ATTACK,2
+CatchRate = 45
+Happiness = 50
+Abilities = RATTLED
+HiddenAbilities = PERISHBODY
+Moves = 0,SHADOWSNEAK,1,COVET,1,SWIFT,1,COPYCAT,1,BATONPASS,1,TAKEDOWN,1,CHARM,1,DOUBLEEDGE,1,HELPINGHAND,1,TACKLE,1,GROWL,1,TAILWHIP,5,SANDATTACK,10,QUICKATTACK,15,BABYDOLLEYES,20,CURSE,25,BITE,30,SHADOWBALL,35,DARKPULSE,40,HEX,45,PHANTOMFORCE,50,GRUDGE,55,LASTRESORT
+TutorMoves = AMNESIA,ATTRACT,BATONPASS,BODYSLAM,CAPTIVATE,CHARM,CONFIDE,COVET,CRUNCH,DARKPULSE,DIG,DOUBLEEDGE,DOUBLETEAM,ECHOEDVOICE,EERIEIMPULSE,ENDURE,FACADE,FAKETEARS,FOCUSENERGY,FOULPLAY,FRUSTRATION,GIGAIMPACT,HEADBUTT,HEALBELL,HELPINGHAND,HEX,HIDDENPOWER,HYPERBEAM,HYPERVOICE,IMPRISON,IRONTAIL,LASERFOCUS,LASTRESORT,METRONOME,MIMIC,MUDSLAP,NATURALGIFT,PAYDAY,PHANTOMFORCE,PROTECT,RAINDANCE,REST,RETALIATE,RETURN,ROUND,SCREECH,SECRETPOWER,SHADOWBALL,SHADOWCLAW,SLEEPTALK,SNORE,STOREDPOWER,SUBSTITUTE,SUNNYDAY,SWAGGER,SWIFT,THIEF,TRICK,UTURN,WEATHERBALL,WILLOWISP,WORKUP
+EggGroups = Field
+HatchSteps = 8960
+Height = 0.7
+Weight = 22.5
+Color = Brown
+Shape = Quadruped
+Habitat = Urban
+Category = Standard
+Pokedex = Its eyes are wide with fear. It might do anything to overcome a foe.
 #-------------------------------
 [UMBREON]
 Name = Umbreon
