@@ -8,6 +8,7 @@ Evolution = JOLTEON,Item,THUNDERSTONE
 Evolution = FLAREON,Item,FIRESTONE
 Evolution = LEAFEON,Item,LEAFSTONE
 Evolution = GLACEON,Item,ICESTONE
+Evolution = WINGEON,BattleDealCriticalHit,2
 Evolution = CORROSEON,Status,POISON
 Evolution = STONLEON,HoldItem,HARDSTONE
 Evolution = LEAFEON,LocationFlag,MossRock
@@ -33,6 +34,7 @@ Evolution = JOLTEON,Item,THUNDERSTONE
 Evolution = FLAREON,Item,FIRESTONE
 Evolution = LEAFEON,Item,LEAFSTONE
 Evolution = GLACEON,Item,ICESTONE
+Evolution = WINGEON,BattleDealCriticalHit,2
 Evolution = CORROSEON,Status,POISON
 Evolution = STONLEON,HoldItem,HARDSTONE
 Evolution = LEAFEON,LocationFlag,MossRock
@@ -48,7 +50,7 @@ Evolution = BRAWLEON,UnhappinessDay
 Evolution = PHASEON,UnhappinessNight
 Evolution = LARVEON,Ball,SAFARIBALL
 Evolution = BRAWLEON,Level,16
-[HITMEON,2]
+[BRAWLEON,2]
 #-------------------------------
 [EEVEE,3]
 Evolution = DRAKEON,TradeItem,DRAGONSCALE
@@ -58,6 +60,7 @@ Evolution = JOLTEON,Item,THUNDERSTONE
 Evolution = FLAREON,Item,FIRESTONE
 Evolution = LEAFEON,Item,LEAFSTONE
 Evolution = GLACEON,Item,ICESTONE
+Evolution = WINGEON,BattleDealCriticalHit,2
 Evolution = CORROSEON,Status,POISON
 Evolution = STONLEON,HoldItem,HARDSTONE
 Evolution = LEAFEON,LocationFlag,MossRock
@@ -83,6 +86,7 @@ Evolution = JOLTEON,Item,THUNDERSTONE
 Evolution = FLAREON,Item,FIRESTONE
 Evolution = LEAFEON,Item,LEAFSTONE
 Evolution = GLACEON,Item,ICESTONE
+Evolution = WINGEON,BattleDealCriticalHit,2
 Evolution = CORROSEON,Status,POISON
 Evolution = STONLEON,HoldItem,HARDSTONE
 Evolution = LEAFEON,LocationFlag,MossRock
@@ -97,7 +101,8 @@ Evolution = UMBREON,HappinessNight
 Evolution = BRAWLEON,UnhappinessDay
 Evolution = PHASEON,UnhappinessNight
 Evolution = LARVEON,Ball,SAFARIBALL
-# CHANGE TO FLYING, ADD INHERITANCE
+Evolution = WINGEON,Level,16
+[WINGEON,4]
 #-------------------------------
 [EEVEE,5]
 Evolution = DRAKEON,TradeItem,DRAGONSCALE
@@ -107,6 +112,7 @@ Evolution = JOLTEON,Item,THUNDERSTONE
 Evolution = FLAREON,Item,FIRESTONE
 Evolution = LEAFEON,Item,LEAFSTONE
 Evolution = GLACEON,Item,ICESTONE
+Evolution = WINGEON,BattleDealCriticalHit,2
 Evolution = CORROSEON,Status,POISON
 Evolution = STONLEON,HoldItem,HARDSTONE
 Evolution = LEAFEON,LocationFlag,MossRock
@@ -132,6 +138,7 @@ Evolution = JOLTEON,Item,THUNDERSTONE
 Evolution = FLAREON,Item,FIRESTONE
 Evolution = LEAFEON,Item,LEAFSTONE
 Evolution = GLACEON,Item,ICESTONE
+Evolution = WINGEON,BattleDealCriticalHit,2
 Evolution = CORROSEON,Status,POISON
 Evolution = STONLEON,HoldItem,HARDSTONE
 Evolution = LEAFEON,LocationFlag,MossRock
@@ -147,7 +154,7 @@ Evolution = BRAWLEON,UnhappinessDay
 Evolution = PHASEON,UnhappinessNight
 Evolution = LARVEON,Ball,SAFARIBALL
 Evolution = CORROSEON,Level,16
-[TOXEON,6]
+[CORROSEON,6]
 #-------------------------------
 [EEVEE,7]
 Evolution = DRAKEON,TradeItem,DRAGONSCALE
@@ -157,6 +164,7 @@ Evolution = JOLTEON,Item,THUNDERSTONE
 Evolution = FLAREON,Item,FIRESTONE
 Evolution = LEAFEON,Item,LEAFSTONE
 Evolution = GLACEON,Item,ICESTONE
+Evolution = WINGEON,BattleDealCriticalHit,2
 Evolution = CORROSEON,Status,POISON
 Evolution = STONLEON,HoldItem,HARDSTONE
 Evolution = LEAFEON,LocationFlag,MossRock
@@ -182,6 +190,7 @@ Evolution = JOLTEON,Item,THUNDERSTONE
 Evolution = FLAREON,Item,FIRESTONE
 Evolution = LEAFEON,Item,LEAFSTONE
 Evolution = GLACEON,Item,ICESTONE
+Evolution = WINGEON,BattleDealCriticalHit,2
 Evolution = CORROSEON,Status,POISON
 Evolution = STONLEON,HoldItem,HARDSTONE
 Evolution = LEAFEON,LocationFlag,MossRock
@@ -196,8 +205,8 @@ Evolution = UMBREON,HappinessNight
 Evolution = BRAWLEON,UnhappinessDay
 Evolution = PHASEON,UnhappinessNight
 Evolution = LARVEON,Ball,SAFARIBALL
-Evolution = EEVEON,Level,16
-# CHANGE TO GROUND, ADD INHERITANCE
+Evolution = DUSTEON,Level,16
+[DUSTEON,8]
 #-------------------------------
 [EEVEE,9]
 Evolution = DRAKEON,TradeItem,DRAGONSCALE
@@ -207,6 +216,7 @@ Evolution = JOLTEON,Item,THUNDERSTONE
 Evolution = FLAREON,Item,FIRESTONE
 Evolution = LEAFEON,Item,LEAFSTONE
 Evolution = GLACEON,Item,ICESTONE
+Evolution = WINGEON,BattleDealCriticalHit,2
 Evolution = CORROSEON,Status,POISON
 Evolution = STONLEON,HoldItem,HARDSTONE
 Evolution = LEAFEON,LocationFlag,MossRock
@@ -232,6 +242,7 @@ Evolution = JOLTEON,Item,THUNDERSTONE
 Evolution = FLAREON,Item,FIRESTONE
 Evolution = LEAFEON,Item,LEAFSTONE
 Evolution = GLACEON,Item,ICESTONE
+Evolution = WINGEON,BattleDealCriticalHit,2
 Evolution = CORROSEON,Status,POISON
 Evolution = STONLEON,HoldItem,HARDSTONE
 Evolution = LEAFEON,LocationFlag,MossRock
@@ -257,6 +268,7 @@ Evolution = JOLTEON,Item,THUNDERSTONE
 Evolution = FLAREON,Item,FIRESTONE
 Evolution = LEAFEON,Item,LEAFSTONE
 Evolution = GLACEON,Item,ICESTONE
+Evolution = WINGEON,BattleDealCriticalHit,2
 Evolution = CORROSEON,Status,POISON
 Evolution = STONLEON,HoldItem,HARDSTONE
 Evolution = LEAFEON,LocationFlag,MossRock
@@ -282,6 +294,7 @@ Evolution = JOLTEON,Item,THUNDERSTONE
 Evolution = FLAREON,Item,FIRESTONE
 Evolution = LEAFEON,Item,LEAFSTONE
 Evolution = GLACEON,Item,ICESTONE
+Evolution = WINGEON,BattleDealCriticalHit,2
 Evolution = CORROSEON,Status,POISON
 Evolution = STONLEON,HoldItem,HARDSTONE
 Evolution = LEAFEON,LocationFlag,MossRock
@@ -296,8 +309,8 @@ Evolution = UMBREON,HappinessNight
 Evolution = BRAWLEON,UnhappinessDay
 Evolution = PHASEON,UnhappinessNight
 Evolution = LARVEON,Ball,SAFARIBALL
-Evolution = EEVEON,Level,16
-# CHANGE TO BUG, ADD INHERITANCE
+Evolution = LARVEON,Level,16
+[LARVEON,12]
 #-------------------------------
 [EEVEE,13]
 Evolution = DRAKEON,TradeItem,DRAGONSCALE
@@ -307,6 +320,7 @@ Evolution = JOLTEON,Item,THUNDERSTONE
 Evolution = FLAREON,Item,FIRESTONE
 Evolution = LEAFEON,Item,LEAFSTONE
 Evolution = GLACEON,Item,ICESTONE
+Evolution = WINGEON,BattleDealCriticalHit,2
 Evolution = CORROSEON,Status,POISON
 Evolution = STONLEON,HoldItem,HARDSTONE
 Evolution = LEAFEON,LocationFlag,MossRock
@@ -332,6 +346,7 @@ Evolution = JOLTEON,Item,THUNDERSTONE
 Evolution = FLAREON,Item,FIRESTONE
 Evolution = LEAFEON,Item,LEAFSTONE
 Evolution = GLACEON,Item,ICESTONE
+Evolution = WINGEON,BattleDealCriticalHit,2
 Evolution = CORROSEON,Status,POISON
 Evolution = STONLEON,HoldItem,HARDSTONE
 Evolution = LEAFEON,LocationFlag,MossRock
@@ -357,6 +372,7 @@ Evolution = JOLTEON,Item,THUNDERSTONE
 Evolution = FLAREON,Item,FIRESTONE
 Evolution = LEAFEON,Item,LEAFSTONE
 Evolution = GLACEON,Item,ICESTONE
+Evolution = WINGEON,BattleDealCriticalHit,2
 Evolution = CORROSEON,Status,POISON
 Evolution = STONLEON,HoldItem,HARDSTONE
 Evolution = LEAFEON,LocationFlag,MossRock
@@ -382,6 +398,7 @@ Evolution = JOLTEON,Item,THUNDERSTONE
 Evolution = FLAREON,Item,FIRESTONE
 Evolution = LEAFEON,Item,LEAFSTONE
 Evolution = GLACEON,Item,ICESTONE
+Evolution = WINGEON,BattleDealCriticalHit,2
 Evolution = CORROSEON,Status,POISON
 Evolution = STONLEON,HoldItem,HARDSTONE
 Evolution = LEAFEON,LocationFlag,MossRock
@@ -396,7 +413,8 @@ Evolution = UMBREON,HappinessNight
 Evolution = BRAWLEON,UnhappinessDay
 Evolution = PHASEON,UnhappinessNight
 Evolution = LARVEON,Ball,SAFARIBALL
-# CHANGE TO STEEL, ADD INHERITANCE
+Evolution = FERREON,Level,16
+[FERREON,16]
 #-------------------------------
 [EEVEE,17]
 Evolution = DRAKEON,TradeItem,DRAGONSCALE
@@ -406,6 +424,7 @@ Evolution = JOLTEON,Item,THUNDERSTONE
 Evolution = FLAREON,Item,FIRESTONE
 Evolution = LEAFEON,Item,LEAFSTONE
 Evolution = GLACEON,Item,ICESTONE
+Evolution = WINGEON,BattleDealCriticalHit,2
 Evolution = CORROSEON,Status,POISON
 Evolution = STONLEON,HoldItem,HARDSTONE
 Evolution = LEAFEON,LocationFlag,MossRock
