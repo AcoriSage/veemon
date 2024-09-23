@@ -143,30 +143,51 @@ end
 # Regular form differences
 #===============================================================================
 
+MultipleForms.register(:EEVEON, {
+  "getForm" => proc { |pkmn|
+    next 0
+  }
+})
 MultipleForms.register(:FLAREON, {
   "getForm" => proc { |pkmn|
     next 1
   }
 })
-# INSERT FIGHTING
+MultipleForms.register(:BRAWLEON, {
+  "getForm" => proc { |pkmn|
+    next 2
+  }
+})
 MultipleForms.register(:VAPOREON, {
   "getForm" => proc { |pkmn|
     next 3
   }
 })
-# INSERT FLYING
+MultipleForms.register(:WINGEON, {
+  "getForm" => proc { |pkmn|
+    next 4
+  }
+})
 MultipleForms.register(:LEAFEON, {
   "getForm" => proc { |pkmn|
     next 5
   }
 })
-# INSERT POISON
+MultipleForms.register(:CORROSEON, {
+  "getForm" => proc { |pkmn|
+    next 6
+  }
+})
 MultipleForms.register(:JOLTEON, {
   "getForm" => proc { |pkmn|
     next 7
   }
 })
-# INSERT GROUND
+MultipleForms.register(:DUSTEON, {
+  "getForm" => proc { |pkmn|
+    next 8
+  }
+})
 MultipleForms.register(:ESPEON, {
   "getForm" => proc { |pkmn|
     next 9
@@ -182,7 +203,11 @@ MultipleForms.register(:GLACEON, {
     next 11
   }
 })
-# INSERT BUG
+MultipleForms.register(:LARVEON, {
+  "getForm" => proc { |pkmn|
+    next 12
+  }
+})
 MultipleForms.register(:DRAKEON, {
   "getForm" => proc { |pkmn|
     next 13
@@ -198,7 +223,11 @@ MultipleForms.register(:UMBREON, {
     next 15
   }
 })
-# INSERT STEEL
+MultipleForms.register(:FERREON, {
+  "getForm" => proc { |pkmn|
+    next 16
+  }
+})
 MultipleForms.register(:SYLVEON, {
   "getForm" => proc { |pkmn|
     next 17
