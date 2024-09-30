@@ -2,20 +2,20 @@
 #-------------------------------
 [CAMPER,Liam]
 LoseText = A very good battle, indeed!
-Pokemon = DIGLETT,10
-Pokemon = BONSLY,11
+Pokemon = EEVEE,10
+Pokemon = EEVEE,11
 #-------------------------------
 [LEADER_Brock,Brock]
 Items = FULLRESTORE,FULLRESTORE
 LoseText = Very good.
-Pokemon = GEODUDE,12
-    Moves = DEFENSECURL,HEADSMASH,ROCKPOLISH,ROCKTHROW
+Pokemon = SILTEON,12
+    Moves = SANDTOMB,SWIFT,SANDATTACK,QUICKATTACK
     AbilityIndex = 0
     Gender = male
     IV = 20,20,20,20,20,20
-Pokemon = ONIX,14
+Pokemon = STONLEON,14
     Name = Rocky
-    Moves = HEADSMASH,ROCKTHROW,RAGE,ROCKTOMB
+    Moves = ACCELEROCK,SANDATTACK,QUICKATTACK,ROCKSLIDE
     AbilityIndex = 0
     Item = SITRUSBERRY
     Gender = male
@@ -25,94 +25,92 @@ Pokemon = ONIX,14
 #-------------------------------
 [TEAMROCKET_M,Grunt,1]
 LoseText = You're too good for me!
-Pokemon = WEEPINBELL,21
-    Shadow = true
+Pokemon = BRAWLEON,21
 #-------------------------------
 [TEAMROCKET_F,Grunt,1]
 LoseText = You're too good for me!
-Pokemon = BURMY,19
-Pokemon = WINGULL,19
-Pokemon = ELECTABUZZ,20
-    Shadow = true
+Pokemon = PHASEON,19
+Pokemon = CORROSEON,19
+Pokemon = GLACEON,20
 #-------------------------------
 [YOUNGSTER,Ben]
 LoseText = Aww, I lost.
-Pokemon = RATTATA,11
-Pokemon = EKANS,11
+Pokemon = EEVEE,11
+Pokemon = EEVEE,11
 #-------------------------------
 [CAMPER,Jeff]
 LoseText = A very good battle, indeed!
-Pokemon = SPEAROW,16
-Pokemon = SENTRET,16
+Pokemon = EEVEON,16
+Pokemon = EEVEON,16
 #-------------------------------
 [CAMPER,Jeff,1]
 LoseText = You beat me again!
-Pokemon = FEAROW,29
-Pokemon = FURRET,29
+Pokemon = ESPEON,29
+Pokemon = LARVEON,29
 #-------------------------------
 [PICNICKER,Susie]
 LoseText = Defeated! Oh my!
-Pokemon = MEOWTH,18
+Pokemon = EEVEON,18
 #-------------------------------
 [PICNICKER,Susie,1]
 LoseText = Defeated! Oh my!
-Pokemon = PERSIAN,32
+Pokemon = LEAFEON,32
 #-------------------------------
 [HIKER,Ford]
 LoseText = You're too good for me!
-Pokemon = MACHOP,19
+Pokemon = STONLEON,19
 #-------------------------------
 [FISHERMAN,Andrew]
 LoseText = Washed out!
-Pokemon = MAGIKARP,14
-Pokemon = MAGIKARP,18
+Pokemon = VAPOREON,14
+Pokemon = VAPOREON,18
 #-------------------------------
 [BEAUTY,Bridget]
-LoseText = My Skitty!
-Pokemon = SKITTY,18
+LoseText = My Eeveon!
+Pokemon = EEVEON,18
 #-------------------------------
 [LASS,Crissy]
 LoseText = You didn't have to win so convincingly!
-Pokemon = PLUSLE,17
-Pokemon = MINUN,17
+Pokemon = FERREON,17
+Pokemon = DRAKEON,17
 #-------------------------------
-[COOLCOUPLE,Alice & Bob]
+[COOLCOUPLE,Alice & Zane]
 LoseText = Our teamwork failed!
-Pokemon = TURTWIG,19
-Pokemon = CHIMCHAR,19
+Pokemon = UMBREON,19
+Pokemon = SYLVEON,19
 #-------------------------------
 [POKEMONTRAINER_May,May]
 LoseText = ...
-Pokemon = COMBUSKEN,19
+Pokemon = FLAREON,19
 #-------------------------------
 [SWIMMER2_F,Ariel]
 LoseText = Washed out!
-Pokemon = STARYU,15
-Pokemon = GOLDEEN,11
+Pokemon = VAPOREON,15
+Pokemon = VAPOREON,11
 #-------------------------------
 [RIVAL1,Blue]
 LoseText = Not too shabby.
-Pokemon = PIDGEOTTO,17
-Pokemon = RATTATA,15
-Pokemon = BULBASAUR,18
+Pokemon = EEVEON,17
+Pokemon = WINGEON,15
+Pokemon = JOLTEON,18
 #-------------------------------
 [RIVAL1,Blue,1]
 LoseText = Not too shabby.
-Pokemon = PIDGEOTTO,17
-Pokemon = RATTATA,15
-Pokemon = CHARMANDER,18
+Pokemon = EEVEON,17
+Pokemon = WINGEON,15
+Pokemon = FLAREON,18
 #-------------------------------
 [RIVAL1,Blue,2]
 LoseText = Not too shabby.
-Pokemon = PIDGEOTTO,17
-Pokemon = RATTATA,15
-Pokemon = SQUIRTLE,18
+Pokemon = EEVEON,17
+Pokemon = WINGEON,15
+Pokemon = VAPOREON,18
 #-------------------------------
 [CHAMPION,Blue]
 LoseText = A good battle indeed!
-Pokemon = VENUSAUR,63
+Pokemon = JOLTEON,63
     Item = SITRUSBERRY
-Pokemon = CHARIZARD,63
+Pokemon = FLAREON,63
     Item = SITRUSBERRY
-Pokemon = BLASTOISE,63
+Pokemon = VAPOREON,63
     Item = SITRUSBERRY
