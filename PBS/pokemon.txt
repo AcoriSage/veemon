@@ -201,7 +201,6 @@ Generation = 4
 Name = Corroseon
 Types = POISON
 BaseStats = 65,60,95,65,110,130
-60,65,65,95,110,130
 GenderRatio = FemaleOneEighth
 GrowthRate = Medium
 BaseExp = 184
