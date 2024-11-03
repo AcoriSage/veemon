@@ -73,6 +73,7 @@ Shape = Quadruped
 Habitat = Urban
 Category = Standard
 Pokedex = Eeveon has somewhat stabilized genetics, but is still sensitive to environmental factors.
+Flags = InheritFormFromMother
 Generation = 1
 #-------------------------------
 [FLAREON]
@@ -98,6 +99,7 @@ Shape = Quadruped
 Habitat = Urban
 Category = Flame
 Pokedex = Flareon's fluffy fur releases heat into the air so that its body does not get excessively hot. Its body temperature can rise to a maximum of 1,650 degrees F.
+Flags = InheritFormFromMother
 Generation = 1
 #-------------------------------
 [BRAWLEON]
@@ -123,6 +125,7 @@ Shape = Quadruped
 Habitat = Urban
 Category = Vengeful
 Pokedex = It doesn't seem to trust anyone. If Brawleon cannot avoid a fight, it will attack with all its strength and fury.
+Flags = InheritFormFromMother
 #-------------------------------
 [VAPOREON]
 Name = Vaporeon
@@ -147,6 +150,7 @@ Shape = Quadruped
 Habitat = Urban
 Category = Bubble Jet
 Pokedex = Vaporeon underwent a spontaneous mutation and grew fins and gills that allow them to live underwater. They have the ability to freely control water.
+Flags = InheritFormFromMother
 Generation = 1
 #-------------------------------
 [WINGEON]
@@ -172,6 +176,7 @@ Shape = Quadruped
 Habitat = Urban
 Category = Maneuvering
 Pokedex = Wingeon is a remarkably precise flyer, seeming to dance effortlessly through the air. It has been seen playing by using clouds as an obstacle course.
+Flags = InheritFormFromMother
 #-------------------------------
 [LEAFEON]
 Name = Leafeon
@@ -195,6 +200,7 @@ Color = Green
 Shape = Quadruped
 Category = Verdant
 Pokedex = Just like a plant, it uses photosynthesis. As a result, it is always enveloped in clear air.
+Flags = InheritFormFromMother
 Generation = 4
 #-------------------------------
 [CORROSEON]
@@ -220,6 +226,7 @@ Shape = Quadruped
 Habitat = Urban
 Category = Corrosive
 Pokedex = Powerful toxins run through Corroseon's bloodstream. When threatened, it can mix these toxins into a concentrated acid that can even melt steel.
+Flags = InheritFormFromMother
 #-------------------------------
 [JOLTEON]
 Name = Jolteon
@@ -244,6 +251,7 @@ Shape = Quadruped
 Habitat = Urban
 Category = Lightning
 Pokedex = Its cells generate weak power that is amplified by its fur's static electricity to drop thunderbolts. The bristling fur is made of electrically charged needles.
+Flags = InheritFormFromMother
 Generation = 1
 #-------------------------------
 [SILTEON]
@@ -269,6 +277,7 @@ Shape = Quadruped
 Habitat = Urban
 Category = Sandstorm
 Pokedex = Where Silteon goes, sandstorms will surely follow. There are rumors that it can dissolve its body into sand and blow away.
+Flags = InheritFormFromMother
 #-------------------------------
 [ESPEON]
 Name = Espeon
@@ -293,6 +302,7 @@ Shape = Quadruped
 Habitat = Urban
 Category = Sun
 Pokedex = An Espeon is extremely loyal to any trainer it considers to be worthy. It is said to have developed precognitive powers to protect its trainer from harm.
+Flags = InheritFormFromMother
 Generation = 2
 #-------------------------------
 [STONLEON]
@@ -318,6 +328,7 @@ Shape = Quadruped
 Habitat = Urban
 Category = Guardian
 Pokedex = Stonleon is often found guarding the entrances to important buildings.
+Flags = InheritFormFromMother
 #-------------------------------
 [GLACEON]
 Name = Glaceon
@@ -341,6 +352,7 @@ Color = Blue
 Shape = Quadruped
 Category = Fresh Snow
 Pokedex = As a protective technique, it can completely freeze its fur to make its hairs stand like needles.
+Flags = InheritFormFromMother
 Generation = 4
 #-------------------------------
 [LARVEON]
@@ -366,6 +378,7 @@ Shape = Quadruped
 Habitat = Urban
 Category = Grub
 Pokedex = Larveon's gooey and slug-like body is preparing for evolution into a sleeker, more dangerous Pokemon.
+Flags = InheritFormFromMother
 #-------------------------------
 [DRAKEON]
 Name = Drakeon
@@ -390,6 +403,7 @@ Shape = Quadruped
 Habitat = Urban
 Category = Charging Scales
 Pokedex = Drakeon is fiercely protective of its territory. It can be vulnerable when caught by surprise.
+Flags = InheritFormFromMother
 #-------------------------------
 [PHASEON]
 Name = Phaseon
@@ -414,6 +428,7 @@ Shape = Quadruped
 Habitat = Urban
 Category = Haunted
 Pokedex = Its eyes are wide with fear. It might do anything to overcome a foe.
+Flags = InheritFormFromMother
 #-------------------------------
 [UMBREON]
 Name = Umbreon
@@ -438,6 +453,7 @@ Shape = Quadruped
 Habitat = Urban
 Category = Moonlight
 Pokedex = Umbreon evolved from exposure to the moon's energy pulses. It lurks in darkness and waits for its foes to move. The rings on its body glow when it leaps to attack.
+Flags = InheritFormFromMother
 Generation = 2
 #-------------------------------
 [FERREON]
@@ -463,6 +479,7 @@ Shape = Quadruped
 Habitat = Urban
 Category = Ferrous Metal
 Pokedex = Ferreon's spiky metal coat can be used as a compass.
+Flags = InheritFormFromMother
 #-------------------------------
 [SYLVEON]
 Name = Sylveon
@@ -486,6 +503,7 @@ Color = Pink
 Shape = Quadruped
 Category = Intertwining
 Pokedex = Its ribbonlike feelers give off an aura that weakens hostility in its prey, causing them to let down their guard. Then it attacks.
+Flags = InheritFormFromMother
 Generation = 6
 #-------------------------------
 [MEW]
