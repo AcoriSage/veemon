@@ -961,6 +961,8 @@ class Pokemon
       gain += 1 if @obtain_map == $game_map.map_id
       gain += 1 if @poke_ball == :LUXURYBALL
       gain = (gain * 1.5).floor if hasItem?(:SOOTHEBELL)
+      gain = (gain * -1).floor if hasItem?(:THORNCOLLAR)
+      gain -= 1 if @poke_ball == :TORTUREBALL
       if Settings::APPLY_HAPPINESS_SOFT_CAP && method != "evberry"
         gain = (@happiness >= 179) ? 0 : gain.clamp(0, 179 - @happiness)
       end
