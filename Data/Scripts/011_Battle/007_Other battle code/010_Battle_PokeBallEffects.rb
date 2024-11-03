@@ -196,3 +196,8 @@ Battle::PokeBallEffects::OnCatch.add(:HEALBALL, proc { |ball, battle, pkmn|
 Battle::PokeBallEffects::OnCatch.add(:FRIENDBALL, proc { |ball, battle, pkmn|
   pkmn.happiness = (Settings::APPLY_HAPPINESS_SOFT_CAP) ? 150 : 200
 })
+
+  
+Battle::PokeBallEffects::OnCatch.add(:HATEBALL, proc { |ball, battle, pkmn|
+  pkmn.happiness = 50
+})
