@@ -1,0 +1,26 @@
+[THORNCOLLAR]
+Name = Thorn Collar
+NamePlural = Thorn Collars
+Pocket = 1
+Price = 2000
+BPPrice = 22
+Flags = Fling_40
+Description = An item to be held by a Pokemon. This collar hurts the wearer to make it miserable.
+#-------------------------------
+[HATEBALL]
+Name = Hate Ball
+NamePlural = Hate Balls
+Pocket = 3
+Price = 300
+BattleUse = OnFoe
+Flags = PokeBall
+Description = A Poké Ball that makes caught Pokémon less friendly.
+#-------------------------------
+[TORTUREBALL]
+Name = Torture Ball
+NamePlural = Torture Balls
+Pocket = 3
+Price = 3000
+BattleUse = OnFoe
+Flags = PokeBall
+Description = A painful Poké Ball that makes a caught wild Pokémon quickly grow unfriendly.
