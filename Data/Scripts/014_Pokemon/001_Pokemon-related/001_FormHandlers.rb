@@ -145,6 +145,7 @@ end
 
 MultipleForms.register(:EEVEON, {
   "getForm" => proc { |pkmn|
+    next nil if !pkmn.hasAbility?(:NORMALIZE)
     typeArray = {
       1  => [:FLAMEPLATE,  :FIRIUMZ],
       2  => [:FISTPLATE,   :FIGHTINIUMZ],
@@ -160,10 +161,9 @@ MultipleForms.register(:EEVEON, {
       12 => [:INSECTPLATE, :BUGINIUMZ],
       13 => [:DRACOPLATE,  :DRAGONIUMZ],
       14 => [:SPOOKYPLATE, :GHOSTIUMZ],
-      15 => [:DREADPLATE,  :DARKINIUMZ]
+      15 => [:DREADPLATE,  :DARKINIUMZ],
       16 => [:IRONPLATE,   :STEELIUMZ],
-      17 => [:PIXIEPLATE,  :FAIRIUMZ],
-      
+      17 => [:PIXIEPLATE,  :FAIRIUMZ]
     }
     ret = 0
     typeArray.each do |f, items|
@@ -177,6 +177,7 @@ MultipleForms.register(:EEVEON, {
     next ret
   }
 })
+  
 MultipleForms.register(:FLAREON, {
   "getForm" => proc { |pkmn|
     next 1 if !pkmn.hasItem?(:EVERSTONE)
