@@ -145,92 +145,138 @@ end
 
 MultipleForms.register(:EEVEON, {
   "getForm" => proc { |pkmn|
-    next 0
+    typeArray = {
+      1  => [:FLAMEPLATE,  :FIRIUMZ],
+      2  => [:FISTPLATE,   :FIGHTINIUMZ],
+      3  => [:SPLASHPLATE, :WATERIUMZ],
+      4  => [:SKYPLATE,    :FLYINIUMZ],
+      5  => [:MEADOWPLATE, :GRASSIUMZ],
+      6  => [:TOXICPLATE,  :POISONIUMZ],
+      7  => [:ZAPPLATE,    :ELECTRIUMZ],
+      8  => [:EARTHPLATE,  :GROUNDIUMZ],
+      9  => [:MINDPLATE,   :PSYCHIUMZ],
+      10 => [:STONEPLATE,  :ROCKIUMZ],
+      11 => [:ICICLEPLATE, :ICIUMZ],
+      12 => [:INSECTPLATE, :BUGINIUMZ],
+      13 => [:DRACOPLATE,  :DRAGONIUMZ],
+      14 => [:SPOOKYPLATE, :GHOSTIUMZ],
+      15 => [:DREADPLATE,  :DARKINIUMZ]
+      16 => [:IRONPLATE,   :STEELIUMZ],
+      17 => [:PIXIEPLATE,  :FAIRIUMZ],
+      
+    }
+    ret = 0
+    typeArray.each do |f, items|
+      items.each do |item|
+        next if !pkmn.hasItem?(item)
+        ret = f
+        break
+      end
+      break if ret > 0
+    end
+    next ret
   }
 })
 MultipleForms.register(:FLAREON, {
   "getForm" => proc { |pkmn|
-    next 1
+    next 1 if !pkmn.hasItem?(:EVERSTONE)
+    next 0
   }
 })
 MultipleForms.register(:BRAWLEON, {
   "getForm" => proc { |pkmn|
-    next 2
+    next 2 if !pkmn.hasItem?(:EVERSTONE)
+    next 0
   }
 })
 MultipleForms.register(:VAPOREON, {
   "getForm" => proc { |pkmn|
-    next 3
+    next 3 if !pkmn.hasItem?(:EVERSTONE)
+    next 0
   }
 })
 MultipleForms.register(:WINGEON, {
   "getForm" => proc { |pkmn|
-    next 4
+    next 4 if !pkmn.hasItem?(:EVERSTONE)
+    next 0
   }
 })
 MultipleForms.register(:LEAFEON, {
   "getForm" => proc { |pkmn|
-    next 5
+    next 5 if !pkmn.hasItem?(:EVERSTONE)
+    next 0
   }
 })
 MultipleForms.register(:CORROSEON, {
   "getForm" => proc { |pkmn|
-    next 6
+    next 6 if !pkmn.hasItem?(:EVERSTONE)
+    next 0
   }
 })
 MultipleForms.register(:JOLTEON, {
   "getForm" => proc { |pkmn|
-    next 7
+    next 7 if !pkmn.hasItem?(:EVERSTONE)
+    next 0
   }
 })
 MultipleForms.register(:DUSTEON, {
   "getForm" => proc { |pkmn|
-    next 8
+    next 8 if !pkmn.hasItem?(:EVERSTONE)
+    next 0
   }
 })
 MultipleForms.register(:ESPEON, {
   "getForm" => proc { |pkmn|
-    next 9
+    next 9 if !pkmn.hasItem?(:EVERSTONE)
+    next 0
   }
 })
 MultipleForms.register(:STONLEON, {
   "getForm" => proc { |pkmn|
-    next 10
+    next 10 if !pkmn.hasItem?(:EVERSTONE)
+    next 0
   }
 })
 MultipleForms.register(:GLACEON, {
   "getForm" => proc { |pkmn|
-    next 11
+    next 11 if !pkmn.hasItem?(:EVERSTONE)
+    next 0
   }
 })
 MultipleForms.register(:LARVEON, {
   "getForm" => proc { |pkmn|
-    next 12
+    next 12 if !pkmn.hasItem?(:EVERSTONE)
+    next 0
   }
 })
 MultipleForms.register(:DRAKEON, {
   "getForm" => proc { |pkmn|
-    next 13
+    next 13 if !pkmn.hasItem?(:EVERSTONE)
+    next 0
   }
 })
 MultipleForms.register(:PHASEON, {
   "getForm" => proc { |pkmn|
-    next 14
+    next 14 if !pkmn.hasItem?(:EVERSTONE)
+    next 0
   }
 })
 MultipleForms.register(:UMBREON, {
   "getForm" => proc { |pkmn|
-    next 15
+    next 15 if !pkmn.hasItem?(:EVERSTONE)
+    next 0
   }
 })
 MultipleForms.register(:FERREON, {
   "getForm" => proc { |pkmn|
-    next 16
+    next 16 if !pkmn.hasItem?(:EVERSTONE)
+    next 0
   }
 })
 MultipleForms.register(:SYLVEON, {
   "getForm" => proc { |pkmn|
-    next 17
+    next 17 if !pkmn.hasItem?(:EVERSTONE)
+    next 0
   }
 })
   
