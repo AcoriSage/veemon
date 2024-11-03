@@ -450,12 +450,15 @@ def pbMaxUsesOfEVLoweringBerry(stat, pkmn)
     bonus_per_use = 0
     bonus_per_use += 1 if pkmn.obtain_map == $game_map.map_id
     bonus_per_use += 1 if pkmn.poke_ball == :LUXURYBALL
+    bonus_per_use -= 1 if pkmn.poke_ball == :TORTUREBALL
     has_soothe_bell = pkmn.hasItem?(:SOOTHEBELL)
+    has_torture_collar = pkmn.hasItem?(:THORNCOLLAR)
     loop do
       uses += 1
       gain = [10, 5, 2][happiness / 100]
       gain += bonus_per_use
       gain = (gain * 1.5).floor if has_soothe_bell
+      gain = (gain * -1).floor if has_torture_collar
       happiness += gain
       break if happiness >= 255
     end
